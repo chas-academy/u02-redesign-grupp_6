@@ -1,0 +1,32 @@
+/* Global variables */
+/* Reset */
+*,
+*:before,
+:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Body */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: #acacac;
+}
+
+header {
+  background-color: #333;
+  height: 20vh;
+}
+
+.hero {
+  background-color: #571c1c;
+  height: 20vh;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+/*# sourceMappingURL=main.css.map */
