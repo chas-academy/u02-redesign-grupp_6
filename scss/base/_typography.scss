@@ -1,20 +1,6 @@
 /* Body */
-
 body {
 	font: 100% $font-stack;
 	color: $primary-color;
 	background-color: $gray;
-}
-
-header {
-	background-color: $red;
-	height: 20vh;
-}
-
-.hero {
-	background-color: $dark-red;
-	height: 20vh;
-	text-align: center;
-	color: $white;
-	font-size: $heading1;
 }

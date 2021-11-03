@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="sv">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,110 +25,101 @@
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
 	</head>
 	<body>
-		<!--Header-->
-		<header>
-			<div class="logo"></div>
-
-			<div class="nav">
+		<!--HEADER-->
+		<header class="main-header">
+			<img src="assets/images/logo.png" alt="" class="logo" />
+			<input type="checkbox" id="nav-toggle" class="nav-toggle" />
+			<label for="nav-toggle" class="nav-toggle-label">
+				<span></span>
+			</label>
+			<nav>
 				<ul>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
+					<li><a href="#">Startsida </a></li>
+					<li><a href="#">Om Konstnärsnämnden</a></li>
+					<li><a href="#">Regeringsuppdrag</a></li>
+					<li><a href="#">Internationellt</a></li>
+					<li><a href="#">Jämställdhet</a></li>
+					<li><a href="#">Analys och utredning</a></li>
+					<li><a href="#">Konstnärers ekonomiska och sociala villkor</a></li>
+					<li><a href="#">Stipendier & bidrag</a></li>
+					<li><a href="#">Nyheter</a></li>
+					<li><a href="#">Kalendarium</a></li>
+					<li><a href="#">Publikationer</a></li>
+					<li><a href="#">Kontakt</a></li>
+					<li><a href="#">Länkar</a></li>
 				</ul>
-			</div>
-
-			<div class="hero"></div>
+			</nav>
 		</header>
-		<!--Main-->
+
+		<!--HERO-->
+		<section class="hero">
+			<h1>Välkommen</h1>
+		</section>
+
+		<!--MAIN-->
 		<main>
-			<!--News part-->
-			<div class="container-news">
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-				<a href="#">
-					<figure>
-						<img src="" alt="" />
-						<figcaption>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</figcaption>
-					</figure>
-				</a>
-			</div>
+			<!--NEWS
+			----------->
+			<section class="container-news">
+				<div class="container-figure-news">
+					<div class="figure-news">
+						<figure>
+							<img src="assets/images/image.jpg" alt="" />
+							<figcaption>
+								<p>Title</p>
+								<a href="">Details</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="figure-news">
+						<figure>
+							<img src="assets/images/image.jpg" alt="" />
+							<figcaption>
+								<p>Title</p>
+								<a href="">Details</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="figure-news">
+						<figure>
+							<img src="assets/images/image.jpg" alt="" />
+							<figcaption>
+								<p>Title</p>
+								<a href="">Details</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="figure-news">
+						<figure>
+							<img src="assets/images/image.jpg" alt="" />
+							<figcaption>
+								<p>Title</p>
+								<a href="">Details</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
 
-			<!--Video part-->
-			<div class="container-video"></div>
+			<!--CALENDAR
+			------------>
+			<section class="container-calendar"></section>
 
-			<!--Buttons stipendier and Calendar-->
-			<div class="container-buttons"></div>
+			<!--VIDEO
+			------------>
+			<section class="container-video"></section>
 
-			<!--Social part-->
-			<div class="container-social"></div>
+			<!--SCOLARSHIPS
+			-------------------------->
+			<section class="container-scolarships"></section>
+
+			<!--SOCIAL
+			------------>
+			<section class="container-social"></section>
 		</main>
 
-		<!--Footer-->
+		<!--FOOTER
+		------------>
 		<footer>
 			<div class="container-footer"></div>
 		</footer>

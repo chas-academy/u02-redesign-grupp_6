@@ -1,4 +1,3 @@
-
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
@@ -8,5 +7,13 @@
 @import "layout/header";
 @import "layout/hero";
 @import "layout/nav";
+@import "layout/news";
+@import "layout/calendar";
+@import "layout/scolarships";
+@import "layout/social";
+@import "layout/video";
+@import "layout/footer";
+@import "layout/responsive";
 
 
+@import "layout/pages/about";
