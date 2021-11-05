@@ -33,6 +33,29 @@
 		width: auto;
 	}
 
+	@keyframes slideshow {
+	0%  { left: 0%; }
+	15% { left: 0%; }
+	20% { left: -100%; }
+	35% { left: -100%; }
+	40% { left: -200%; }
+	65% { left: -200%; }
+	70% { left: -300%; }
+	85% { left: -300%; }
+	90% { left: -400%; }
+	100% { left: -400%; }
+	}
+	
+	
+	#reel figure img {
+		width: 100%;
+	}
+
+	#reel figure {
+		position: relative;
+		animation: slideshow 20s infinite;
+	}
+
 	
 	/*NAV
 	--------------*/
