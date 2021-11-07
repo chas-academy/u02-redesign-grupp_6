@@ -8,6 +8,8 @@
 
 	.container-figure-news, .container-figure-calendar {
 		display: flex;
+		margin-left: 10vw;
+		margin-right: 10vw;
 	}
 
 	.figure-news, .figure-calendar {
@@ -32,31 +34,61 @@
 	.container-images-social img {
 		width: auto;
 	}
+	  // CAROUSEL
 
-	@keyframes slideshow {
-	0%  { left: 0%; }
-	15% { left: 0%; }
-	20% { left: -100%; }
-	35% { left: -100%; }
-	40% { left: -200%; }
-	65% { left: -200%; }
-	70% { left: -300%; }
-	85% { left: -300%; }
-	90% { left: -400%; }
-	100% { left: -400%; }
-	}
-	
-	
-	#reel figure img {
-		width: 100%;
-	}
+	  @media screen and (max-width: 650px) {
+		.carousel__track {
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+	  
+		// desktop can have up to 3 items per slide
+		@for $i from 1 through 3 {
+		  .carousel__item--mobile-in-#{$i} {
+			// 90% instead of 100% so the next slide appears on the right side
+			width: #{90% / $i};
+		  }
+		}
+	  }
+	  
+	  @media screen and (max-width: 1023px) {
+		.carousel {
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+	  
+		.carousel__activator:nth-of-type(n):checked {
+		  ~ .carousel__controls:nth-of-type(n) {
+			display: none;
+		  }
+	  
+		  ~ .carousel__screen .carousel__track {
+			transform: none;
+		  }
+		}
+	  
+		.carousel__screen {
+		  margin-left: 0;
+		  margin-right: 0;
+		}
+	  
+		.carousel__track {
+		  overflow-x: auto;
+		  width: auto;
+		  padding-left: 48px;
+		  padding-right: 48px;
+		}
+	  
+		// tablet can have up to 3 items per slide
+		@for $i from 1 through 3 {
+		  .carousel__item--tablet-in-#{$i} {
+			// 90% instead of 100% so the next slide appears on the right side
+			width: #{90% / $i};
+		  }
+		}
+	  }
 
-	#reel figure {
-		position: relative;
-		animation: slideshow 20s infinite;
-	}
-
-	
+	  
 	/*NAV
 	--------------*/
 	.nav-toggle-label {
