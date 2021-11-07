@@ -3,6 +3,19 @@
 	text-align: center;
 	color: $white;
 	font-size: $heading1;
-	height: $height1;
+	height: $height2;
 	border: $border1;
+}
+
+.container-hero {
+	display: flex;
+	justify-content: center;
+	margin-right: 10vw;
+	margin-left: 10vw;
+}
+
+.hero-image {
+	width: 70vw;
+	height: auto;
+	overflow: hidden;
 }
