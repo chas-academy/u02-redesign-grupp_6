@@ -187,7 +187,7 @@ figure img {
 }
 
 .carousel {
-  min-width: 900px;
+  min-width: 300px;
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
@@ -501,7 +501,7 @@ figure img {
             justify-content: space-evenly;
     width: 100%;
   }
-  .container-figure-news, .container-figure-calendar {
+  .container-figure-news {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
