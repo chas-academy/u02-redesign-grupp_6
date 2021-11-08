@@ -1,7 +1,6 @@
- // maximum number of slides the carousel can have
- $number-of-slides: 9;
-	  
- .carousel {
+$number-of-slides: 9;
+  
+  .carousel {
    min-width: 900px;
    max-width: 1236px;
    margin-left: auto;
@@ -74,8 +73,6 @@
  }
  
  .carousel__track {
-   // font size 0 to remove space between the slides
-   // https://css-tricks.com/fighting-the-space-between-inline-block-elements/
    font-size: 0;
    transition: all 0.3s ease 0s;
    white-space: nowrap;
@@ -90,7 +87,6 @@
    white-space: normal;
  }
  
- // desktop can have up to 3 items per slide
   @for $i from 1 through 3 {
     .carousel__item--desktop-in-#{$i} {
      width: #{100% / $i};
@@ -104,7 +100,6 @@
    font-weight: 100;
    align-items: center;
    justify-content: center;
-   // text-transform: uppercase;
    border-radius: 3px;
    font-size: 14px;
    height: fit-content;

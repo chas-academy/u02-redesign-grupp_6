@@ -42,10 +42,8 @@
 		  padding-right: 0;
 		}
 	  
-		// desktop can have up to 3 items per slide
 		@for $i from 1 through 3 {
 		  .carousel__item--mobile-in-#{$i} {
-			// 90% instead of 100% so the next slide appears on the right side
 			width: #{90% / $i};
 		  }
 		}
@@ -79,10 +77,8 @@
 		  padding-right: 48px;
 		}
 	  
-		// tablet can have up to 3 items per slide
 		@for $i from 1 through 3 {
 		  .carousel__item--tablet-in-#{$i} {
-			// 90% instead of 100% so the next slide appears on the right side
 			width: #{90% / $i};
 		  }
 		}
