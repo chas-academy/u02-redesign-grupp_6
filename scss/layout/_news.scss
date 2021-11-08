@@ -1,9 +1,27 @@
 .figure-news {
-	margin: 0.5em;
+	margin: 3em ;
+	padding-top: 0.5em;
 	display: flex;
 	justify-content: center;
+	background-color: rgb(48, 48, 48);
+	border-color: red;
 }
 
 figure img {
 	width: 100%;
 }
+
+.horizontal-line-box {
+	color: $white;
+	justify-content: center;
+	background-color: rgb(48, 48, 48);
+	height: 30px;
+	width: 150px;
+	margin: 3em ;
+	margin-bottom:-3em;
+	display: flex;
+	
+
+
+}
+
