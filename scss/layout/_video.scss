@@ -1,5 +1,20 @@
 .container-video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: $gray;
-	height: $height1;
+	height: 400px;
 	border: $border1;
+}
+
+.video {
+	display: flex;
+	background-color: rgb(48, 48, 48);
+	position:absolute;
+	height: 300px;
+	right: 0px;
+	width: 940px;
+	align-items: center;
+  justify-content: center;
+	
 }
