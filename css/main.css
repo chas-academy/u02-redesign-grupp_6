@@ -80,6 +80,44 @@ body {
   color: white;
 }
 
+.articles-hero {
+  background-color: #7a7a7a;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+}
+
+.articles-image {
+  padding-top: 0.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 40%;
+  top: 200px;
+  width: 700px;
+  height: 400px;
+  background-color: #a3a3a3;
+}
+
+.articles-image-overlap {
+  padding-top: 0.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  top: 300px;
+  width: 700px;
+  height: 400px;
+  background-color: #303030;
+}
+
 .nav-toggle {
   display: none;
 }
@@ -207,6 +245,35 @@ figure img {
   display: flex;
 }
 
+.newsletter {
+  height: 20vh;
+  background-color: #7a7a7a;
+}
+
+.news-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  background-color: #7a7a7a;
+}
+
+.news-heading-main-box {
+  height: 80px;
+  width: 1000px;
+  margin-top: 150px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .container-calendar {
   background: #7c6868;
   height: 20vh;
@@ -234,9 +301,12 @@ figure img {
 }
 
 .container-social {
-  background: #7c6868;
   height: 20vh;
-  border: 1px solid black;
+}
+
+.social-header {
+  color: black;
+  text-align: center;
 }
 
 .container-video {
