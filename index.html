@@ -54,50 +54,52 @@
 		<!--HERO-->
 		<section class="hero">
 			<h1>Välkommen</h1>
-			<img src="assets/images/herobild/hero.jpg" alt="En clown som drar upp mungiporna på sig själv" />
+			<div class="container-hero">
+				<img class="hero-image" src="assets/images/herobild/hero.jpg" alt="En clown som drar upp mungiporna på sig själv" />
+			</div>
 		</section>
 
 		<!--MAIN-->
 		<main>
 			<!--NEWS
 			----------->
-			<section class="container-news">
-				<div class="container-figure-news">
-					<div class="figure-news">
-						<figure>
-							<img src="assets/images/nyheter/nyheter1.jpg" alt="" />
-							<figcaption>
-								<p>Title</p>
-								<a href="">Details</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="figure-news">
-						<figure>
-							<img src="assets/images/nyheter/nyheter2.jpg" alt="" />
-							<figcaption>
-								<p>Title</p>
-								<a href="">Details</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="figure-news">
-						<figure>
-							<img src="assets/images/nyheter/nyheter3.jpg" alt="" />
-							<figcaption>
-								<p>Title</p>
-								<a href="">Details</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="figure-news">
-						<figure>
-							<img src="assets/images/nyheter/nyheter4.jpg" alt="" />
-							<figcaption>
-								<p>Title</p>
-								<a href="">Details</a>
-							</figcaption>
-						</figure>
+		<section class="container-news">
+			<div class="container-figure-news">
+				<div class="figure-news">
+					<figure>
+						<img src="assets/images/nyheter/nyheter1.jpg" alt="" />
+						<figcaption>
+							<p>Title</p>
+							<a href="">Details</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="figure-news">
+					<figure>
+						<img src="assets/images/nyheter/nyheter2.jpg" alt="" />
+						<figcaption>
+							<p>Title</p>
+							<a href="">Details</a>
+						</figcaption>
+					</figure>
+				</div>
+			<!--<div class="figure-news">
+					<figure>
+						<img src="assets/images/nyheter/nyheter3.jpg" alt="" />
+						<figcaption>
+							<p>Title</p>
+							<a href="">Details</a>
+						</figcaption>
+					</figure>
+				</div>-->
+				<div class="figure-news">
+					<figure>
+						<img src="assets/images/nyheter/nyheter4.jpg" alt="" />
+						<figcaption>
+							<p>Title</p>
+							<a href="">Details</a>
+						</figcaption>
+					</figure>
 					</div>
 				</div>
 			</section>
@@ -105,46 +107,136 @@
 			<!--CALENDAR
 			------------>
 			<section class="container-calendar">
-				<div id="reel" class="container-figure-calendar">
-					<div class="figure-calendar">
-						<figure>
-							<img src="assets/images/kalendarium/kalendarium1.jpg" alt="Grafisk formgivare som arbetar"/>
-							<figcaption>
-								<p>2021-12-08 – Kurs i grafisk formgivning</p>
-								<a href="">Är du grafisk formgivare, eller är nyfiken på vad arbetet som grafisk formgivare innebär? Då är du välkommen till oss på Bildstudion onsdagen den 8 december kl. 18:00-19:30 för en informationsträff. Det kommer hållas två kurser, en för nybörjare och en på avancerad nivå som startar måndagen den 13 december. Åtta tillfällen, 1500 kr.</a>
-							</figcaption>
-						</figure>
+					<div class='carousel'>
+					  <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
+					  <input class='carousel__activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
+					  <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
+					  <div class='carousel__controls'>
+						<label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
+						  ➡
+						</label>
+					  </div>
+					  <div class='carousel__controls'>
+						<label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
+						  ⬅
+						</label>
+						
+						<label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
+							➡
+						  </label>
+						</div>
+					  <div class='carousel__controls'>
+						<label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
+							⬅
+						</label>
+					  </div>
+					  <div class='carousel__screen'>
+						<div class='carousel__track'>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>	
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium1.jpg" alt="Grafisk formgivare som arbetar"/>
+									<figcaption>
+										<p>2021-12-08 – Kurs i grafisk formgivning</p>
+										<a href="">Är du grafisk formgivare, eller är nyfiken på vad arbetet som grafisk formgivare innebär? Då är du välkommen till oss på Bildstudion onsdagen den 8 december kl. 18:00-19:30 för en informationsträff. Det kommer hållas två kurser, en för nybörjare och en på avancerad nivå som startar måndagen den 13 december. Åtta tillfällen, 1500 kr.</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium2.jpg" alt="En grupp personer som diskuterar i ring"/>
+									<figcaption>
+										<p>2021-11-30 – Diskussionsforum Konstnären 2021</p>
+										<a href="">Nu är det återigen dags för vårt populära diskussionsforum med ämnet Konstnären 2021  i Konstnärsnämndens lokaler. Vi delar med oss av erfarenheter, tips och knyter nya kontakter. Save the date 30 november 2021</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium3.jpg" alt="En grupp personer som organiserar post-it-lappar på en tavla"/>
+									<figcaption>
+										<p>2021-12-01 – Workshop Creative mind</p>
+										<a href="">Väck liv i din kreativitet tillsammans med oss på Creative mind! Nu när restriktionerna äntligen har släppt vågar vi bjuda in till århundradets mest kreativa workshop. Vi fixar fikat och du tillsammans med övriga kreatörer kommer med idéerna. När du går härifrån hoppas vi att du är fylld med inspiration till ditt nya projekt</a>
+									</figcaption>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium4.jpg" alt="Spelning med ljuseffekter och publik som sträcker upp armarna i luften"/>
+									<figcaption>
+										<p>2021-12-03 – Julkonsert Santa's Rock 'n' Pop Night</p>
+										<a href="">Spelningen du inte vill missa. Ladda upp och samla energi inför julstressen med skön musik. Kända och okända artister poppar och rockar loss på stora utomhusscenen vid Folkets hus i Norrköping. Tar du med barnen så se till att vara här redan kl. 17 då tomten delar ut julklappar till alla barn. Konstnärsnämnden kommer även ha en utställning av julinspirerad konst i anslutning till entrén till Folkets hus hela veckan.</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium5.jpg" alt="Utställning med färgglad lysande neon"/>
+									<figcaption>
+										<p>2021-12-06 – Modern Centurys neonutställning</p>
+										<a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptate cumque molestias cum architecto officiis nulla? Tempora commodi ad quo laboriosam quas magni quia odit deleniti, eaque natus. Est, sit quasi soluta laborum fuga nisi eos ut quas eveniet consequatur sunt impedit facere pariatur tempora id veritatis, nulla ea debitis autem reiciendis molestias iste quia. Sint, eius dolorem.</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium6.jpg" alt="Kvinna som målar akvarell utomhus"/>
+									<figcaption>
+										<p>2021-12-08 – Akvarellmålning i Frankrike</p>
+										<a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error eaque voluptates atque itaque repellat et ad laboriosam accusantium, voluptas nostrum expedita culpa nulla quam, sequi porro facere labore aliquam ipsam maxime, officia pariatur. Neque quis asperiores nam modi quasi. Illo dolorem ex in officia voluptates sit molestiae, beatae tempore.</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium7.jpg" alt="Utställningshall med Marco Gonzales tavlor"/>
+									<figcaption>
+										<p>2021-12-11 – Utställning Marco Gonzales</p>
+										<a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis voluptatem doloremque facere odio maiores error ullam laudantium rem! Quasi tenetur neque dignissimos asperiores delectus necessitatibus impedit placeat cumque. Facilis doloremque iste consectetur quibusdam fuga perferendis. Eum ea, est molestiae, dignissimos quidem facere optio, excepturi consequuntur fugit eos reiciendis provident ex ipsa neque officia iste quam ipsum officiis esse repellat sint!</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium8.jpg" alt="Dukade långbord"/>
+									<figcaption>
+										<p>2021-12-15 – Middag och utdelning av Konstnärsnämndens hederspris</p>
+										<a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus tenetur iure, accusamus vitae officia ex voluptas magni nam saepe? Dolores beatae quaerat iusto dicta facere asperiores architecto repellendus est enim reprehenderit laudantium voluptatum voluptatibus, quia delectus perferendis maxime dolorum ex possimus nihil? Suscipit magnam possimus labore fugiat earum rerum cumque debitis mollitia. Debitis, fuga?</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						  <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+							<div class="carousel-figure-content">
+								<figure>
+									<img src="assets/images/kalendarium/kalendarium9.jpg" alt="Glada personer med tomteluvor"/>
+									<figcaption>
+										<p>2021-12-17 – Julfest med Konstnärsnämnden</p>
+										<a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas, sequi sunt a perspiciatis, esse doloremque inventore, id quia dicta officia laborum fuga repellat aliquam soluta! Nam mollitia hic ut rerum, dolor eos veritatis? Sed labore porro facere expedita officia dolore? Laboriosam doloribus nulla labore, aliquam ea perspiciatis iste iure.</a>
+									</figcaption>
+								</figure>
+							</div>
+						  </div>
+						</div>
+					  </div>
 					</div>
-					<div class="figure-calendar">
-						<figure>
-							<img src="assets/images/kalendarium/kalendarium2.jpg" alt="En grupp personer som diskuterar i ring" />
-							<figcaption>
-								<p>2021-11-30 – Diskussionsforum Konstnären 2021</p>
-								<a href="">Nu är det återigen dags för vårt populära diskussionsforum med ämnet Konstnären 2021  i Konstnärsnämndens lokaler. Vi delar med oss av erfarenheter, tips och knyter nya kontakter. Save the date 30 november 2021</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="figure-calendar">
-						<figure>
-							<img src="assets/images/kalendarium/kalendarium3.jpg" alt="En grupp personer som organiserar post-it-lappar på en tavla" />
-							<figcaption>
-								<p>2021-12-01 – Workshop Creative mind</p>
-								<a href="">Väck liv i din kreativitet tillsammans med oss på Creative mind! Nu när restriktionerna äntligen har släppt vågar vi bjuda in till århundradets mest kreativa workshop. Vi fixar fikat och du tillsammans med övriga kreatörer kommer med idéerna. När du går härifrån hoppas vi att du är fylld med inspiration till ditt nya projekt</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="figure-calendar">
-						<figure>
-							<img src="assets/images/kalendarium/kalendarium4.jpg" alt="Spelning med ljuseffekter och publik som sträcker upp armarna i luften" />
-							<figcaption>
-								<p>2021-12-15 – Julkonsert Santa's Rock 'n' Pop Night</p>
-								<a href="">Spelningen du inte vill missa. Ladda upp och samla energi inför julstressen med skön musik. Kända och okända artister poppar och rockar loss på stora utomhusscenen vid Folkets hus i Norrköping. Tar du med barnen så se till att vara här redan kl. 17 då tomten delar ut julklappar till alla barn. Konstnärsnämnden kommer även ha en utställning av julinspirerad konst i anslutning till entrén till Folkets hus hela veckan.</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
 			</section>
-
+			
 			<!--VIDEO
 			------------>
 			<section class="container-video"></section>
