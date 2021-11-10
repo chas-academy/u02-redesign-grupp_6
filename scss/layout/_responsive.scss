@@ -1,3 +1,20 @@
+@media screen and (max-width: 650px) {
+	.carousel__track {
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+  
+	@for $i from 1 through 3 {
+	  .carousel__item--mobile-in-#{$i} {
+		width: #{90% / $i};
+	  }
+	}
+		
+	.carousel {
+		max-width: 374px;
+		}
+	}
+
 @media screen and (min-width: 800px) and (max-width: 1920px) {
 	.container-news {
 		display: flex;
@@ -12,7 +29,7 @@
 		margin-right: 10vw;
 	}
 
-	.figure-news, .figure-calendar {
+	.figure-news {
 		width: auto;
 		flex: 1 20em;
 	}
@@ -36,18 +53,6 @@
 	}
 	  // CAROUSEL
 
-	  @media screen and (max-width: 650px) {
-		.carousel__track {
-		  padding-left: 0;
-		  padding-right: 0;
-		}
-	  
-		@for $i from 1 through 3 {
-		  .carousel__item--mobile-in-#{$i} {
-			width: #{90% / $i};
-		  }
-		}
-	  }
 	  
 	  @media screen and (max-width: 1023px) {
 		.carousel {
