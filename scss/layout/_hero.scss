@@ -19,3 +19,43 @@
 	height: auto;
 	overflow: hidden;
 }
+
+//Artikel sida
+
+
+.article-hero {
+	background-color: $article-hero-color;
+	position:relative;
+	display:flex;
+	justify-content: center;
+	height:500px;
+	}
+	.article-image {
+		padding-top: 0.5em;
+		position: absolute;
+		display: flex;
+		top: 300px;
+		width: $hero-image-width;
+		height: $hero-image-height;
+		background-color: rgb(48, 48, 48);
+		
+	}
+	.hero-header-text{
+	font-size: $hero-header-size-text;
+		color: $white;
+		display:flex;
+	text-align: center;
+
+	}
+	
+
+	.article-text {
+		height: $article-text-height;
+		background-color: $white;
+		font-size: $hero-header-size-text;
+		color: $white;
+
+	}
+	
+
+	
