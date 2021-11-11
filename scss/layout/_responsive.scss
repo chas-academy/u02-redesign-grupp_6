@@ -39,17 +39,18 @@
   }
 
   .container-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
-  .container-images-social {
-    display: flex;
+  .social-header {
+    font-size: 30px;
+    padding: 30px;
   }
+
   .container-images-social img {
-    width: auto;
+    height: 184px;
   }
 
   /*FOOTER-----
