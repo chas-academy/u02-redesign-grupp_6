@@ -1,9 +1,27 @@
+.container-news {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container-figure-news, .container-figure-calendar {
+	margin-top: 2em;
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+
 .figure-news {
-	margin: 3em ;
-	padding-top: 0.5em;
+	width: 30%;
 	display: flex;
 	justify-content: center;
-	background-color: rgb(48, 48, 48);
+
 	border-color: red;
 }
 
@@ -20,8 +38,12 @@ figure img {
 	margin: 3em ;
 	margin-bottom:-3em;
 	display: flex;
-	
+}
 
+figcaption {
+	justify-content: center;
 
 }
+
+
 

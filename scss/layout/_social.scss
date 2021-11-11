@@ -1,5 +1,16 @@
 .container-social {
+	width: 100%;
+	display: flex;
 	background: $gray;
-	height: $height1;
-	border: $border1;
+	height: 10em;
+	border: 0;
+}
+
+.itemSocial {
+	width: 16%;
+
+}
+
+.container-images-social {
+
 }

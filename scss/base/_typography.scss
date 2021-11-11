@@ -4,3 +4,35 @@ body {
 	color: $primary-color;
 	background-color: $white;
 }
+
+p {
+	display: block;
+	color: black;
+	font-size: 0.3em;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+
+.redTxt {
+	color: crimson;
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
+.cardTxt {
+	color: rgb(34, 34, 34);
+	font-size: 0.8em;
+	margin-top: 0.5em;
+}
+
+.article-p {
+	display: block;
+	color: black;
+	font-size: 1.5em;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
