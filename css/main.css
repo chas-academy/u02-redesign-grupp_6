@@ -664,18 +664,9 @@ figure img {
 .video iframe {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
   padding-top: 2em;
 }
 
-/*
-display: flex;
-	gap: 100px;
-	justify-content: center;
-	align-items: center;
-	padding: 5em 15em;
-*/
 /*FOOTER------
 --------------*/
 .container-footer {
@@ -927,6 +918,35 @@ display: flex;
   }
   .container-images-social img {
     width: auto;
+  }
+  /*VIDEO-----
+	------*/
+  .container-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5em 5em;
+  }
+  .video-text {
+    width: 30%;
+  }
+  .video-text h2 {
+    font-size: 2rem;
+  }
+  .video-text p {
+    font-size: 1.2rem;
+  }
+  .video iframe {
+    width: 20vw;
+    height: 25vh;
+    padding-top: 0;
   }
   /*FOOTER-----
 	------*/
