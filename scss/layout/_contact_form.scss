@@ -1,0 +1,79 @@
+.contact-form {
+	background: rgb(30, 30, 40);
+}
+
+.main-title-form {
+	background-image: url("../../assets/images/kontakt/contact_form.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 30vh;
+	border-bottom: 0.2em solid gray;
+
+	/*position: relative;*/
+}
+
+.main-title-form h1 {
+	color: rgb(245, 237, 237);
+	font-size: 2rem;
+	font-weight: 300;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	padding: 5em 0 0.5em;
+}
+.main-title-form h1 span {
+	background-color: black;
+	border: 0.01px solid black;
+	border-radius: 5px;
+	padding: 0.1em;
+}
+
+.container-form form {
+	max-width: 100%;
+	margin: 3em 1em;
+}
+
+.feedback-input {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: transparent;
+	border: 2px solid #cc6666;
+	transition: all 0.3s;
+	padding: 0.7em;
+	margin-bottom: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+.feedback-input:focus {
+	border: 2px solid #cc4949;
+}
+
+.container-form textarea {
+	height: 30vh;
+	line-height: 150%;
+	resize: vertical;
+}
+
+[type="submit"] {
+	width: 100%;
+	background: #cc6666;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 1.5rem;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	transition: all 0.3s;
+	margin-top: -0.2em;
+	font-weight: 700;
+}
+[type="submit"]:hover {
+	background: #cc4949;
+}

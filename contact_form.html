@@ -22,7 +22,31 @@
     <title>Formulär</title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
-<body>
-    
+<body class="contact-form">
+    <div class="main-title-form">
+		<h1><span>Fyll i formuläret nedan:</span></h1>
+	</div>
+	<div class="container-form">
+		<form>
+			<input
+				name="name"
+				type="text"
+				class="feedback-input"
+				placeholder="Namn"
+			/>
+			<input
+				name="email"
+				type="text"
+				class="feedback-input"
+				placeholder="E-postadress"
+			/>
+			<textarea
+				name="text"
+				class="feedback-input"
+				placeholder="Meddelande"
+			></textarea>
+			<input type="submit" value="Skicka in" />
+		</form>
+	</div>
 </body>
 </html>
