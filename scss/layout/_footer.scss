@@ -3,3 +3,134 @@
 	height: $height1;
 	border: $border1;
 }
+
+/*FOOTER for U02*/
+
+footer {
+	background-color: rgb(32, 31, 31);
+	padding: 1em;
+}
+
+.item-footer {
+	padding: 1em 0;
+}
+footer h3 {
+	color: white;
+	font-size: 1.8rem;
+	margin-bottom: 0.5em;
+}
+
+.p-item,
+footer a {
+	color: white;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 1.6;
+}
+
+address .p-item:nth-of-type(3) {
+	padding-bottom: 1em;
+}
+
+
+.contact-button, .submit-button {
+	border: 0;
+	margin: 2em 0 1em;
+	background-color: rgba(220, 0, 0, 1);
+	line-height: 2.5;
+	font-size: 1rem;
+	text-align: center;
+	border-radius: 10px;
+	padding: 0 0.3em;
+	color: white;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	background-image: linear-gradient(
+		to top left,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 30%,
+		rgba(0, 0, 0, 0)
+	);
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+		inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.contact-button:hover, .submit-button:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.contact-button a {
+	padding: .6em;
+}
+.item-footer form {
+	margin-top: 2em;
+}
+.item-footer form input {
+	display: block;
+	margin: 1em 0;
+}
+.item-footer input:nth-of-type(1) {
+	height: 2.5em;
+}
+
+.submit-button {
+	padding: 0 1em;
+    cursor: pointer;
+	
+}
+
+.item-footer-list li {
+	height: 2em;
+	position: relative;
+}
+
+.item-footer-social:hover {
+	font-weight: 900;
+	color: rgb(224, 179, 162);
+	font-size: 1.3rem;
+}
+
+.copyright::before {
+	content: " ";
+	border-style: solid;
+	border-color: rgb(83, 79, 79);
+	border-top-width: 0.05em;
+	position: absolute;
+	width: 100%;
+
+}
+
+.copyright p:nth-of-type(1) {
+	padding-top: 1.5em;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+	footer .main {
+		display: flex;
+		gap: 3em;
+	}
+
+	.item-footer:nth-of-type(1) {
+		flex: 1.5;
+	}
+	.item-footer:nth-of-type(2) {
+		flex: 2;
+	}
+	.item-footer:nth-of-type(3) {
+		flex: 1.5;
+	}
+	footer .copyright {
+		display: flex;
+		position: relative;
+	}
+	
+	.copyright .p-item:nth-of-type(2) {
+		position: absolute;
+		top: 1.5em;
+		left: 10em;
+	}
+	.copyright .p-item:nth-of-type(3) {		
+		position: absolute;
+		right:0;
+		top: 1.5em;
+		
+	}
+}
