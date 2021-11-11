@@ -24,4 +24,31 @@ figure img {
 
 
 }
+// newsletter section
+.newsletter {
+	height: $height1;
+	background-color: $article-hero-color;
+}
+
+// news section Bea szenfeld
+.news-heading {
+	display: flex;
+	height: 400px;
+	background-color: $article-hero-color;
+	
+
+	
+}
+
+.news-heading-main-box {
+height:80px;
+width: 1000px;
+margin-top: 150px;
+background-color: $white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
 
