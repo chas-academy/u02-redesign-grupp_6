@@ -601,6 +601,12 @@ figure img {
   width: 100%;
 }
 
+/*DELETE (only to work in video part)*/
+.container-calendar {
+  height: auto;
+}
+
+/*DELETE*/
 .container-scolarships {
   background: #7c6868;
   height: 20vh;
@@ -641,37 +647,35 @@ figure img {
 }
 
 .container-video {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #7c6868;
-  height: 400px;
-  border: 1px solid black;
+  background: #F0cF24;
+  height: auto;
+  width: 100%;
+  padding: 5em 4em;
 }
 
-.video {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #303030;
-  position: absolute;
-  height: 300px;
-  right: 0px;
-  width: 940px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.video-text h2 {
+  padding-bottom: 1em;
 }
 
+.video-text p {
+  padding-bottom: .5em;
+}
+
+.video iframe {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 2em;
+}
+
+/*
+display: flex;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+	padding: 5em 15em;
+*/
 /*FOOTER------
 --------------*/
 .container-footer {
