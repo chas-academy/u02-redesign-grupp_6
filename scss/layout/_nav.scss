@@ -1,79 +1,58 @@
-.nav-toggle {
-	display: none;
+.black-top {
+  width: 100%;
+  background-color: #4643d1;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
-.nav-toggle-label {
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: $white;
-	margin-left: 1em;
-	height: 100%;
-	display: flex;
-	align-items: center;
-}
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-	display: block;
-	background: $white;
-	height: 2px;
-	width: 2em;
-	border-radius: 2px;
-	position: relative;
+.main-header {
+  height: 15vh;
+  z-index: 10;
+  width: 80%;
+  margin: auto;
 }
 
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-	content: "";
-	position: absolute;
-}
-.nav-toggle-label span::before {
-	bottom: 7px;
-}
-
-.nav-toggle-label span::after {
-	top: 7px;
-}
-nav {
-	position: absolute;
-	text-align: left;
-	top: 80%;
-	left: 0;
-	background: $gray;
-	width: 100%;
-	transform: scale(1, 0);
-	transform-origin: top;
-	transition: transform 400ms ease-in-out;
+button {
+  height: 8vh;
+  width: 25%;
+  background-color: #f0c124;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10%;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  text-transform: uppercase;
 }
 
-nav ul {
-	list-style: none;
+.searchbar {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
-nav li {
-	margin-bottom: 1em;
-	margin-left: 1em;
+.nav-top {
+  margin-right: 10%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
 }
 
-nav a {
-	color: $white;
-	text-decoration: none;
-	font-size: 0.7rem;
-	text-transform: uppercase;
-	opacity: 0;
-	transition: opacity 150ms ease-in-out;
-}
-
-nav a:hover {
-	font-weight: 900;
-}
-
-.nav-toggle:checked ~ nav {
-	transform: scale(1, 1);
-}
-
-.nav-toggle:checked ~ nav a {
-	opacity: 1;
-	transition: opacity 250ms ease-in-out 250ms;
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  align-content: center;
+  margin: auto;
+  padding: auto;
 }

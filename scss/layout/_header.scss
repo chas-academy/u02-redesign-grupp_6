@@ -1,13 +1,60 @@
-.main-header {
-	background-color: $gray;
-	height: $height1;
-	border: $border1;
-	position: relative;
-	z-index: 10;
-	width: 100%;
-	text-align: right;
+.menu-bar {
+  background: white;
+  text-align: center;
+  margin: auto;
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+    li {
+      width: auto;
+      margin: 32px;
+      margin-top: 0px;
+      padding: 10px;
+
+      a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        font-size: auto;
+      }
+
+      &:hover {
+        background: #dfdbdb;
+        border-radius: 3px;
+
+        .sub-menu1 {
+          display: block;
+          position: absolute;
+          background: #dfdbdb;
+          margin-top: 12px;
+          margin-left: -10px;
+
+          ul {
+            display: block;
+            margin: 10px;
+
+            li {
+              width: auto;
+              border-bottom: 1px dotted rgb(0, 0, 0);
+              background: transparent;
+              border-radius: 0;
+              text-align: center;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-.logo {
-	width: 10rem;
+.sub-menu1 {
+  display: none;
 }
