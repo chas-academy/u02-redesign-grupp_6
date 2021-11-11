@@ -1,5 +1,100 @@
+/*FOOTER------
+--------------*/
+
 .container-footer {
-	background: $black;
-	height: $height1;
-	border: $border1;
+	background: $black;	
+	padding: 1em;
+}
+
+.item-footer {
+	padding: 1em 0;
+}
+.container-footer h2 {
+	color: $white;
+	font-size: 1.5rem;
+	margin-bottom: 0.5em;
+}
+
+.p-item,
+.item-footer a, .item-footer-list a, .copyright a {
+	color: $white;
+	text-decoration: $text-decoration1;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+.item-footer--address .p-item:nth-of-type(3) {
+	padding-bottom: 1em;
+}
+
+.contact-button, .submit-button {
+	border: 0;
+	margin: 2em 0 1em;
+	background-color: rgba(220, 0, 0, 1);
+	line-height: 2.5;
+	font-size: .9rem;
+	text-align: center;
+	border-radius: 10px;
+	padding: 0 0.3em;
+	color: $white;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	background-image: linear-gradient(
+		to top left,
+		rgba(0, 0, 0, 0.2),
+		rgba(0, 0, 0, 0.2) 30%,
+		rgba(0, 0, 0, 0)
+	);
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+		inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.contact-button:hover, .submit-button:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.contact-button a {
+	padding: .6em;
+}
+.item-footer form {
+	margin-top: 2em;
+}
+.item-footer form input {
+	display: block;
+	margin: 1em 0;
+}
+.item-footer input:nth-of-type(1) {
+	height: 2.5em;
+}
+
+.submit-button {
+	padding: 0 1em;
+    cursor: pointer;
+	
+}
+.item-footer-list {
+	list-style: none;
+}
+
+.item-footer-list li {
+	height: 2em;
+	position: relative;
+}
+
+.item-footer-social:hover {
+	font-weight: 900;
+	color: rgb(224, 179, 162);
+	font-size: 1.2rem;
+}
+
+.copyright::before {
+	content: " ";
+	border-style: solid;
+	border-color: rgb(83, 79, 79);
+	border-top-width: 0.05em;
+	position: absolute;
+	width: 90vw;
+
+}
+
+.copyright p:nth-of-type(1) {
+	padding-top: 1.5em;
 }

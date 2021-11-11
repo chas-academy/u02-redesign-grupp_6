@@ -2,10 +2,23 @@
 	height: $height1;
 
 }
+
 .social-header {
 	color: black;
 	text-align: center;
 }
 
 
+.container-social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
 
+.container-images-social {
+	display: flex;
+}
+.container-images-social img {
+	height: 60px;
+}
