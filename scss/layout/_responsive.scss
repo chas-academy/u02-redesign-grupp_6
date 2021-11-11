@@ -84,6 +84,19 @@
     width: 97vw;
   }
 
+  .main-title-form h1 {
+		text-align: center;
+		padding: 6em 1em 0.5em;
+	}
+	.container-form {
+		display: flex;
+		justify-content: center;
+	}
+	.container-form form {
+		width: 35%;
+		
+	}
+
   // CAROUSEL
 
   @media screen and (max-width: 1023px) {
