@@ -122,10 +122,10 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .button {
-    padding: 100px;
-    width: 30%;
-    height: 20vh;
+  .stip-btn {
+    padding: 1px;
+    width: 29%;
+    height: 6vh;
   }
 }
 
@@ -139,11 +139,13 @@
 
   .menu-bar ul {
     display: flex;
-    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
   }
 
   .menu-bar ul li {
     margin: 0px;
-    font-size: smaller;
+    margin-left: -20px;
+    font-size: 9px;
   }
 }
