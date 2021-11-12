@@ -945,8 +945,6 @@ figure img {
 .banger-container {
   position: relative;
   width: 100%;
-  display: -ms-grid;
-  display: grid;
 }
 
 .banger {
@@ -976,7 +974,7 @@ figure img {
   top: 60%;
   left: 10%;
   background-color: #f95791;
-  color: black;
+  color: white;
   text-align: center;
   font-size: 3vw;
   padding-top: 10px;
