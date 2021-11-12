@@ -954,7 +954,7 @@ figure img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 2em;
+    gap: 5em;
   }
   .item-footer {
     -webkit-box-flex: 1.5;
