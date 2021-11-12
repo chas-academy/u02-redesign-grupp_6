@@ -829,7 +829,7 @@ figure img {
   resize: vertical;
 }
 
-[type="submit"] {
+.submit-contact-form {
   width: 100%;
   background: #cc6666;
   border-radius: 5px;
@@ -845,7 +845,7 @@ figure img {
   font-weight: 700;
 }
 
-[type="submit"]:hover {
+.submit-contact-form:hover {
   background: #cc4949;
 }
 
