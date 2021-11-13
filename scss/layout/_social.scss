@@ -1,15 +1,16 @@
 .container-social {
-	height: 30vh;
-	padding: 1em;
+	height: 25vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
 
 }
 
 .social-header {
 	color: black;
-	font-size: 20px;
+	font-size: 1em;
 	text-align: center;
 	width: 100%;
-	padding: 20px;
+	padding: 1em;
 }
 
 .container-images-social {
@@ -19,5 +20,41 @@
 	width: 100%;
 }
 .container-images-social img {
-	height: 60px;
+	height: 9vh;
+}
+
+@media screen and (min-width: 415px) and (max-width: 849px) {
+
+	.container-social {
+		height: 35vh;
+		margin-left: 8vw;
+		margin-right: 8vw;
+	  }
+	
+	  .social-header {
+		font-size: 1.5em;
+		padding: 1em;
+	  }
+	
+	  .container-images-social img {
+		height: 15vh;
+	  }
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1920px) {
+	
+	.container-social {
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+	}
+
+  	.social-header {
+    font-size: 2em;
+    padding: 1.5em;
+ 	}
+  .container-images-social img {
+    height: 25vh;
+	}
 }
