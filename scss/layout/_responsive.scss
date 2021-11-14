@@ -16,45 +16,29 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
-	.container-news {
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: space-evenly;
-		width: 100%;
-	}
+  .container-news {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 
-	.container-figure-news {
-		display: flex;
-		margin-left: 10vw;
-		margin-right: 10vw;
-	}
+  .container-figure-news {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 
-	.figure-news {
-		width: auto;
-		flex: 1 20em;
-	}
+  .figure-news {
+    width: auto;
+    flex: 1 20em;
+  }
 
-	figure img {
-		max-width: 100%;
-	}
+  figure img {
+    max-width: 100%;
+  }
 
-	.container-social {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		width: 100%;
-	}
-
-	.container-images-social {
-		display: flex;
-	}
-	.container-images-social img {
-		width: auto;
-	}
-
-	
-
-	/*FOOTER-----
+  /*FOOTER-----
 	------*/
 
 	footer .main {
@@ -136,28 +120,31 @@
 	}
 }
 @media screen and (max-width: 500px) {
-	.button {
-		padding: 100px;
-		width: 30%;
-		height: 20vh;
-	}
+  .stip-btn {
+    padding: 1px;
+    width: 29%;
+    height: 6vh;
+  }
 }
 
 @media screen and (max-width: 800px) {
-	.nav-top {
-		display: flex;
-		font-size: small;
-		width: 100%;
-		margin-right: 0;
-	}
+  .nav-top {
+    display: flex;
+    font-size: small;
+    width: 100%;
+    margin-right: 0;
+  }
 
-	.menu-bar ul {
-		display: flex;
-		width: 100%;
-	}
+  .menu-bar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
 
-	.menu-bar ul li {
-		margin: 0px;
-		font-size: smaller;
-	}
+  .menu-bar ul li {
+    margin: 0px;
+    margin-left: -20px;
+    font-size: 9px;
+  }
+
 }
