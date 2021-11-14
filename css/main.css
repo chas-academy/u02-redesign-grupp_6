@@ -1080,8 +1080,8 @@ figure img {
   height: 30em;
 }
 
-.about-hero .hero-header-text {
-  width: 80%;
+.about-hero .about-header-text {
+  width: 50%;
   margin: auto;
   margin: 0;
   padding: 0;
@@ -1094,13 +1094,12 @@ figure img {
   text-align: center;
 }
 
-.about-hero .article-text {
-  width: 80%;
+.about-hero .about-text {
+  width: 60%;
   margin: auto;
   margin-top: 35vh;
   margin-bottom: 35vh;
   background-color: white;
-  font-size: 40px;
   color: black;
   text-align: center;
   -webkit-box-pack: center;
@@ -1109,7 +1108,7 @@ figure img {
   font-size: 1.5vw;
 }
 
-.about-hero .article-p {
+.about-hero .about-p {
   display: block;
   color: white;
   font-size: 1.5vw;
@@ -1122,6 +1121,13 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .about-text,
+  .about-p {
+    font-size: 3, 5vw;
+  }
 }
 
 .uppdrag-hero {
@@ -1157,7 +1163,7 @@ figure img {
 .uppdrag-text {
   width: 70%;
   margin: auto;
-  margin-top: 35vh;
+  margin-top: 45vh;
   margin-bottom: 35vh;
   background-color: white;
   font-size: 40px;
@@ -1194,6 +1200,74 @@ figure img {
 @media screen and (max-width: 500px) {
   .uppdrag-text,
   .uppdrag-p {
+    font-size: 3.5vw;
+  }
+}
+
+.analys-hero {
+  background-color: #F95791;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 30em;
+}
+
+.analys-header-text {
+  font-size: 5vw;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.analys-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5vw;
+}
+
+.analys-p {
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .analys-text,
+  .analys-p {
     font-size: 3.5vw;
   }
 }

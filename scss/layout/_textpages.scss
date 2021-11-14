@@ -30,7 +30,6 @@
 
 .about-hero {
   background-color: $yellow;
-  //position:relative;
   display: flex;
   flex-direction: column;
   flex-basis: 0;
@@ -39,8 +38,8 @@
   align-content: center;
   height: 30em;
 
-  .hero-header-text {
-    width: 80%;
+  .about-header-text {
+    width: 50%;
     margin: auto;
     margin: 0;
     padding: 0;
@@ -53,20 +52,19 @@
     text-align: center;
   }
 
-  .article-text {
-    width: 80%;
+  .about-text {
+    width: 60%;
     margin: auto;
     margin-top: 35vh;
     margin-bottom: 35vh;
     background-color: $white;
-    font-size: $hero-header-size-text;
     color: $black;
     text-align: center;
     justify-content: center;
     font-size: 1.5vw;
   }
 
-  .article-p {
+  .about-p {
     display: block;
     color: $white;
     font-size: 1.5vw;
@@ -76,11 +74,18 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about-text,
+  .about-p {
+    font-size: 3, 5vw;
+  }
+}
+
 //---------REGERINGSUPPDRAG
 
 .uppdrag-hero {
   background-color: $grey-white;
-  //position:relative;
   display: flex;
   flex-direction: column;
   flex-basis: 0;
@@ -100,7 +105,7 @@
 .uppdrag-text {
   width: 70%;
   margin: auto;
-  margin-top: 35vh;
+  margin-top: 45vh;
   margin-bottom: 35vh;
   background-color: $white;
   font-size: $hero-header-size-text;
@@ -130,6 +135,57 @@
 @media screen and (max-width: 500px) {
   .uppdrag-text,
   .uppdrag-p {
+    font-size: 3.5vw;
+  }
+}
+
+//------------ANALYS OCH UTREDNING
+
+.analys-hero {
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.analys-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.analys-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.analys-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .analys-text,
+  .analys-p {
     font-size: 3.5vw;
   }
 }
