@@ -601,12 +601,6 @@ figure img {
   width: 100%;
 }
 
-/*DELETE (only to work in video part)*/
-.container-calendar {
-  height: auto;
-}
-
-/*DELETE*/
 .container-scolarships {
   background: #7c6868;
   height: 20vh;
