@@ -33,6 +33,53 @@ body {
           justify-content: space-between;
   width: 80%;
   margin: auto;
+
+}
+
+.menu-bar ul li {
+  width: auto;
+  margin: 32px;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: auto;
+}
+
+.menu-bar ul li:hover {
+  background: #dfdbdb;
+  border-radius: 3px;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute;
+  background: #dfdbdb;
+  margin-top: 12px;
+  margin-left: -10px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li {
+  width: auto;
+  border-bottom: 1px dotted black;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+  margin-top: 5px;
+}
+
+=======
 }
 
 .menu-bar ul li {
@@ -196,6 +243,38 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.main-header {
+  height: 15vh;
+  z-index: 10;
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  height: 8vh;
+  width: 25%;
+  background-color: #f0c124;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.searchbar {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+=======
 }
 
 .main-header {
@@ -608,12 +687,65 @@ figure img {
 }
 
 .container-social {
-  height: 20vh;
+  height: 25vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .social-header {
   color: black;
+  font-size: 1em;
   text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.container-images-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.container-images-social img {
+  height: 9vh;
+}
+
+@media screen and (min-width: 415px) and (max-width: 849px) {
+  .container-social {
+    height: 35vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .social-header {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .container-images-social img {
+    height: 15vh;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1920px) {
+  .container-social {
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .social-header {
+    font-size: 2em;
+    padding: 1.5em;
+  }
+  .container-images-social img {
+    height: 25vh;
+  }
 }
 
 .container-social {
@@ -821,26 +953,37 @@ figure img {
   figure img {
     max-width: 100%;
   }
-  .container-social {
+  /*FOOTER-----
+	------*/
+  footer .main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    width: 100%;
+    gap: 2em;
   }
-  .container-images-social {
+  .item-footer {
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+  }
+  footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
   }
-  .container-images-social img {
-    width: auto;
+  .copyright .p-item:nth-of-type(2) {
+    position: absolute;
+    top: 2.5em;
+    left: 10em;
+  }
+  .copyright .p-item:nth-of-type(3) {
+    position: absolute;
+    right: 1.5em;
+    top: 2.5em;
+  }
+  .copyright::before {
+    width: 97vw;
   }
   /*FOOTER-----
 	------*/
@@ -910,6 +1053,10 @@ figure img {
 }
 
 @media screen and (max-width: 500px) {
+  .button {
+    padding: 100px;
+    width: 30%;
+    height: 20vh;
   .stip-btn {
     padding: 1px;
     width: 29%;
@@ -931,6 +1078,10 @@ figure img {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+  }
+  .menu-bar ul li {
+    margin: 0px;
+    font-size: smaller;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
