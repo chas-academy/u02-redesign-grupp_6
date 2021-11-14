@@ -1,21 +1,46 @@
 .container-video {
 	background: $yellow;
-	height: $height;
 	width: $width;
-	padding: 5em 4em;
-	
+	margin-top: 3em;
 }
 
-.video-text h2 {
+.videobox {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.videobox .item1 {
+	padding: 2em 0;
+}
+.videobox .item1 h2 {
 	padding-bottom: 1em;
 }
 
-.video-text p {
+.videobox .item1 p {
 	padding-bottom: .5em;
-
 }
-.video iframe {
-	width: $width;
-	height: $height;
-	padding-top: 2em;
+
+.videobox .item2 {
+	padding: .5em 0 2em;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+	/*VIDEO-----
+	------*/
+
+	.videobox {
+		flex-direction: row;
+		gap: 5em;
+		justify-content: center;
+		padding: 5em 5em;
+	}
+
+		.item1 h2 {
+		font-size: 1.5rem;
+	}
 }
