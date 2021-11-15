@@ -139,6 +139,120 @@
   }
 }
 
+//---------NYHETER
+
+.nyheter-hero {
+  background-color: $purple;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.nyheter-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.nyheter-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.nyheter-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container-figure-article {
+    margin-left: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nyheter-text,
+  .nyheter-p {
+    font-size: 3.5vw;
+  }
+}
+
+// ---- KALENDARIUM
+
+.kalendarium-hero {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.kalendarium-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.kalendarium-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.kalendarium-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container-figure-article {
+    margin-left: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .kalendarium-text,
+  .kalendarium-p {
+    font-size: 3.5vw;
+  }
+}
+
 //------------ANALYS OCH UTREDNING
 
 .analys-hero {
@@ -213,6 +327,12 @@
 
 .redTxt {
   color: crimson;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.blueTxt {
+  color: $blue;
   font-size: 1em;
   margin-top: 0.5em;
 }
