@@ -262,7 +262,7 @@
 }
 
 .links-header-text {
-	font-size: 5vw;
+	font-size: 1.2rem;
 	color: $black;
 	text-transform: uppercase;
 	text-align: center;
@@ -309,4 +309,26 @@
 .links-text a {
 	text-decoration: $text-decoration1;
 	color: $black;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .links-hero {
+    height: 50vh;
+  }
+
+  .links-header-text {
+    font-size: 6rem;
+  }
+  .links-p {
+    font-size: 2rem;
+  }
+  .links-image {
+	margin-top: 20em;
+	height: 40vh;
+  }
+
+  .links-text {
+    margin-top: 40vh;
+    font-size: 2rem;
+  }
 }
