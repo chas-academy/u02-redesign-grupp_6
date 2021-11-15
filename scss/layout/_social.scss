@@ -1,56 +1,60 @@
 .container-social {
-  height: 25vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
+	height: 25vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+
 }
 
 .social-header {
-  color: black;
-  font-size: 1em;
-  text-align: center;
-  width: 100%;
-  padding: 1em;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	padding: 1em;
 }
 
 .container-images-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-evenly;
+	width: 100%;
 }
 .container-images-social img {
-  height: 9vh;
+	height: 9vh;
 }
 
 @media screen and (min-width: 415px) and (max-width: 849px) {
-  .container-social {
-    height: 35vh;
-    margin-left: 8vw;
-    margin-right: 8vw;
-  }
 
-  .social-header {
-    font-size: 1.5em;
-    padding: 1em;
-  }
-
-  .container-images-social img {
-    height: 15vh;
-  }
+	.container-social {
+		height: 35vh;
+		margin-left: 8vw;
+		margin-right: 8vw;
+	  }
+	
+	  .social-header {
+		font-size: 1.5em;
+		padding: 1em;
+	  }
+	
+	  .container-images-social img {
+		height: 15vh;
+	  }
 }
 
+
 @media screen and (min-width: 850px) and (max-width: 1920px) {
-  .container-social {
+	
+	.container-social {
     height: 50vh;
     margin-left: 10vw;
     margin-right: 10vw;
-  }
+	}
 
-  .social-header {
+  	.social-header {
     font-size: 2em;
     padding: 1.5em;
-  }
+ 	}
   .container-images-social img {
     height: 25vh;
-  }
+	}
 }

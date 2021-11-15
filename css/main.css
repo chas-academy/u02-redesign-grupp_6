@@ -701,17 +701,12 @@ figure img {
   padding-bottom: 1em;
 }
 
-.videobox .item1 p {
-  padding-bottom: 0.5em;
-}
 
-.videobox .item2 {
-  padding: 0.5em 0 2em;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
   /*VIDEO-----
-  ------*/
+
   .videobox {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -828,6 +823,144 @@ figure img {
   padding-top: 1.5em;
 }
 
+.contact-form {
+  background-color: #F95791;
+  height: 40vh;
+  border: 0;
+}
+
+.contact-form h1 {
+  padding: 1em 0 .5em;
+}
+
+.contact-image {
+  width: 80%;
+}
+
+.container-text {
+  margin-top: 5em;
+  padding: 1em;
+}
+
+.container-text div {
+  padding-top: 1.5em;
+}
+
+.container-text div h2 {
+  padding-bottom: .3em;
+}
+
+.item1-text p {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.item5-text p, .item7-text ul li, .item9-text p {
+  padding-bottom: .3em;
+}
+
+.item7-text ul {
+  list-style: none;
+}
+
+.container-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-title-form h2 {
+  color: #f5eded;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+  padding: 2em .5em 0.5em;
+}
+
+.main-title-form h2 span {
+  background-color: black;
+  border: 0.01px solid black;
+  border-radius: 5px;
+  padding: 0.1em;
+}
+
+.form-box form {
+  max-width: 100%;
+  margin: 3em 1em;
+}
+
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0.7em;
+  margin-bottom: 15px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+.container-form textarea {
+  height: 30vh;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.submit-contact-form {
+  width: 100%;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -0.2em;
+  font-weight: 700;
+}
+
+.submit-contact-form:hover {
+  background: #cc4949;
+}
+
+/*CONTACT FORM*/
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .contact-image {
+    width: 40%;
+    top: 2em;
+    left: 15em;
+  }
+  .container-text {
+    margin-top: 25em;
+  }
+  .container-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-form {
+    padding-bottom: 5em;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .carousel__track {
     padding-left: 0;
@@ -877,21 +1010,14 @@ figure img {
   figure img {
     max-width: 100%;
   }
-  .container-images-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .container-images-social img {
-    width: auto;
-  }
+
   /*FOOTER-----
 	------*/
   footer .main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 2em;
+    gap: 5em;
   }
   .item-footer {
     -webkit-box-flex: 1.5;
@@ -916,6 +1042,21 @@ figure img {
   }
   .copyright::before {
     width: 97vw;
+  }
+  .main-title-form h1 {
+    text-align: center;
+    padding: 6em 1em 0.5em;
+  }
+  .container-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-form form {
+    width: 35%;
   }
 }
 
