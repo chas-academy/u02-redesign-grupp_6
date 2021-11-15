@@ -701,12 +701,17 @@ figure img {
   padding-bottom: 1em;
 }
 
+.videobox .item1 p {
+  padding-bottom: .5em;
+}
 
+.videobox .item2 {
+  padding: .5em 0 2em;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
   /*VIDEO-----
-
+	------*/
   .videobox {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1010,7 +1015,6 @@ figure img {
   figure img {
     max-width: 100%;
   }
-
   /*FOOTER-----
 	------*/
   footer .main {
