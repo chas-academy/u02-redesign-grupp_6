@@ -1545,4 +1545,84 @@ figure img {
     margin-top: 2em;
   }
 }
+
+/* LINKS PART */
+.links-hero {
+  background-color: #DFDBDB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 30vh;
+}
+
+.links-header-text {
+  font-size: 5vw;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.links-p {
+  color: black;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.links-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8em;
+  width: 80%;
+  height: 30vh;
+  border-top: 10px solid #4643d1;
+}
+
+.links-text {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 30vh;
+  margin-bottom: 2em;
+  font-size: .9rem;
+  color: black;
+  text-align: center;
+}
+
+.links-text div {
+  padding-bottom: 3em;
+}
+
+.links-text h2 {
+  padding-bottom: 1em;
+}
+
+.links-text p {
+  padding-bottom: 0.3em;
+}
+
+.links-text a {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */
