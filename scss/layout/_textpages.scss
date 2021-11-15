@@ -1,0 +1,249 @@
+.container-article {
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-figure-article {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 8em;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.figure-article {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+
+  border-color: red;
+}
+//----------OM OSS
+
+.about-hero {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+
+  .about-header-text {
+    width: 50%;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    font-size: $hero-header-size-text;
+    color: $white;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    margin-top: 0em;
+    text-align: center;
+  }
+
+  .about-text {
+    width: 60%;
+    margin: auto;
+    margin-top: 35vh;
+    margin-bottom: 35vh;
+    background-color: $white;
+    color: $black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+  }
+
+  .about-p {
+    display: block;
+    color: $white;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-text,
+  .about-p {
+    font-size: 3, 5vw;
+  }
+}
+
+//---------REGERINGSUPPDRAG
+
+.uppdrag-hero {
+  background-color: $grey-white;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.uppdrag-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.uppdrag-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.uppdrag-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container-figure-article {
+    margin-left: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .uppdrag-text,
+  .uppdrag-p {
+    font-size: 3.5vw;
+  }
+}
+
+//------------ANALYS OCH UTREDNING
+
+.analys-hero {
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.analys-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.analys-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.analys-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .analys-text,
+  .analys-p {
+    font-size: 3.5vw;
+  }
+}
+
+.width {
+  width: 80%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.article-image {
+  position: absolute;
+  display: flex;
+  margin-top: 15em;
+  width: $hero-image-width;
+  height: 22em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
+}
+
+.redTxt {
+  color: crimson;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.cardTxt {
+  color: rgb(34, 34, 34);
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+// Article page 600px
+
+@media screen and (max-width: 800px) {
+  .container-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-figure-article {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  .figure-article {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
+}
