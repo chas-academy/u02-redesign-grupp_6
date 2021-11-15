@@ -1546,7 +1546,8 @@ figure img {
   }
 }
 
-/* LINKS PART */
+/* START LINKS AND PUBLICATIONS PART 
+-------------------------------------*/
 .links-hero {
   background-color: #DFDBDB;
   display: -webkit-box;
@@ -1569,7 +1570,7 @@ figure img {
   height: 30vh;
 }
 
-.links-header-text {
+.links-pub-header-text {
   font-size: 1.2rem;
   color: black;
   text-transform: uppercase;
@@ -1577,7 +1578,7 @@ figure img {
   padding-bottom: 0.5em;
 }
 
-.links-p {
+.links-pub-p {
   color: black;
   font-size: 1rem;
   -webkit-box-pack: center;
@@ -1594,55 +1595,98 @@ figure img {
   display: flex;
   margin-top: 8em;
   width: 80%;
-  height: 30vh;
+  height: auto;
   border-top: 10px solid #4643d1;
 }
 
-.links-text {
+.links-pub-text {
   width: 70%;
   height: auto;
   margin: auto;
   margin-top: 30vh;
   margin-bottom: 2em;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: black;
   text-align: center;
 }
 
-.links-text div {
+.links-pub-text div {
   padding-bottom: 3em;
 }
 
-.links-text h2 {
+.links-pub-text h2 {
   padding-bottom: 1em;
 }
 
-.links-text p {
-  padding-bottom: 0.3em;
+.links-pub-text p {
+  padding-bottom: 0.5em;
 }
 
-.links-text a {
+.links-pub-text a {
   text-decoration: none;
   color: black;
+}
+
+/*PUBLICATIONS PART*/
+.pub-hero {
+  background-color: #4643d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 50vh;
+}
+
+.pub-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 17em;
+  width: 80%;
+  height: 30vh;
+  border-top: 10px solid #F0cF24;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
   .links-hero {
     height: 50vh;
   }
-  .links-header-text {
+  .links-pub-header-text {
     font-size: 6rem;
   }
-  .links-p {
+  .links-pub-p {
     font-size: 2rem;
   }
   .links-image {
     margin-top: 20em;
     height: 40vh;
   }
-  .links-text {
+  .links-pub-text {
     margin-top: 40vh;
     font-size: 2rem;
   }
+  .pub-hero {
+    height: 60vh;
+  }
+  .pub-image {
+    margin-top: 25em;
+  }
 }
+
+/* END LINKS AND PUBLICATIONS PART 
+----------------------------------*/
 /*# sourceMappingURL=main.css.map */
