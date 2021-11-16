@@ -1,34 +1,64 @@
-.container-article {
-  display: flex;
-  flex-flow: column wrap;
-  flex-direction: row;
+// Same on all platforms
+
+.article-p {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 100%;
+
+}
+
+.article-text {
+  width: 80%;
+  margin: auto;
+  //lagt till	
+  margin-top: 8em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.container-article {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .container-figure-article {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: 8em;
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 8em;
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
 }
 
 .figure-article {
-  width: 30%;
-  display: flex;
-  justify-content: center;
+	width: 30%;
+	display: flex;
+	justify-content: center;
 
-  border-color: red;
+	border-color: red;
+}
+
+.border-top {
+  border-top: 6px solid $purple;
 }
 //----------OM OSS
 
-.about-hero {
+.om-hero {
   background-color: $yellow;
   display: flex;
   flex-direction: column;
@@ -37,88 +67,137 @@
   align-items: center;
   align-content: center;
   height: 30em;
-
-  .about-header-text {
-    width: 50%;
-    margin: auto;
-    margin: 0;
-    padding: 0;
-    font-size: $hero-header-size-text;
-    color: $white;
-    text-transform: uppercase;
-    display: block;
-    margin: 0;
-    margin-top: 0em;
-    text-align: center;
-  }
-
-  .about-text {
-    width: 60%;
-    margin: auto;
-    margin-top: 35vh;
-    margin-bottom: 35vh;
-    background-color: $white;
-    color: $black;
-    text-align: center;
-    justify-content: center;
-    font-size: 1.5vw;
-  }
-
-  .about-p {
-    display: block;
-    color: $white;
-    font-size: 1.5vw;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-  }
+}
+.om-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $white;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-  .about-text,
-  .about-p {
-    font-size: 3, 5vw;
+.om-p {
+  display: block;
+  color: $white;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .om-p {
+    font-size: 3vw;
+    width: 80%;
   }
 }
 
 //---------REGERINGSUPPDRAG
 
 .uppdrag-hero {
-  background-color: $grey-white;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  height: 30em;
+	background-color: $grey-white;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height: 30em;
 }
 .uppdrag-header-text {
-  font-size: 5vw;
-  color: $black;
-  text-transform: uppercase;
-  display: block;
-  text-align: center;
+	font-size: 5vw;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
 }
 
 .uppdrag-text {
-  width: 70%;
-  margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
-  background-color: $white;
-  font-size: $hero-header-size-text;
-  color: $black;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.5vw;
+	width: 70%;
+	margin: auto;
+	margin-top: 45vh;
+	margin-bottom: 35vh;
+	background-color: $white;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.5vw;
 }
 
 .uppdrag-p {
+	display: block;
+	color: $black;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+	.container-figure-article {
+		margin-left: 3em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  .uppdrag-text {
+    font-size: 3.5vw;
+    margin-bottom: 15vh;
+  }
+  .uppdrag-p {
+    font-size: 5.5vw;
+    width: 80%;
+  }
+}
+
+//------------ANALYS OCH UTREDNING
+
+.analys-hero {
+	background-color: $pink;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height: 30em;
+}
+.analys-header-text {
+	font-size: 5vw;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+}
+
+.analys-text {
+	width: 70%;
+	margin: auto;
+	margin-top: 45vh;
+	margin-bottom: 35vh;
+	background-color: $white;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.5vw;
+}
+
+.analys-p {
   display: block;
   color: $black;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -126,16 +205,15 @@
   width: 50%;
 }
 
-@media screen and (max-width: 800px) {
-  .container-figure-article {
-    margin-left: 3em;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .uppdrag-text,
-  .uppdrag-p {
+@media screen and (max-width: 690px) {
+  .analys-text {
     font-size: 3.5vw;
+    width: 70%;
+    margin-bottom: 15vh;
+  }
+  .analys-p {
+    font-size: 3.5vw;
+    width: 70%;
   }
 }
 
@@ -255,7 +333,13 @@
 
 //------------ANALYS OCH UTREDNING
 
-.analys-hero {
+@media screen and (max-width: 400px) {
+  .analys-p {
+    font-size: 4.5vw;
+  }
+}
+//----------Stipendier
+.stip-hero {
   background-color: $pink;
   display: flex;
   flex-direction: column;
@@ -265,19 +349,19 @@
   align-content: center;
   height: 30em;
 }
-.analys-header-text {
+.stip-header-text {
   font-size: 5vw;
-  color: $black;
+  color: $white;
   text-transform: uppercase;
   display: block;
   text-align: center;
 }
 
-.analys-text {
+.stip-text {
   width: 70%;
   margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
+  margin-top: 55vh;
+  margin-bottom: 20vh;
   background-color: $white;
   font-size: $hero-header-size-text;
   color: $black;
@@ -286,49 +370,60 @@
   font-size: 1.5vw;
 }
 
-.analys-p {
+.stip-p {
   display: block;
-  color: $black;
+  color: $white;
   font-size: 1.5vw;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 
-@media screen and (max-width: 500px) {
-  .analys-text,
-  .analys-p {
-    font-size: 3.5vw;
+@media screen and (max-width: 800px) {
+  .stip-text {
+    font-size: 4.5vw;
+    margin-bottom: 6vh;
+    margin-top: 40vh;
+    width: 80%;
+  }
+  .stip-p {
+    font-size: 4vw;
+    width: 90%;
   }
 }
 
 .width {
-  width: 80%;
-  padding-top: 2em;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
+	width: 80%;
+	padding-top: 2em;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 }
 
 .article-image {
-  position: absolute;
-  display: flex;
-  margin-top: 15em;
-  width: $hero-image-width;
-  height: 22em;
-  background-color: rgb(48, 48, 48);
-  border-top: 10px solid $blue;
+	position: absolute;
+	display: flex;
+	margin-top: 15em;
+	width: $hero-image-width;
+	height: 22em;
+	background-color: rgb(48, 48, 48);
+	border-top: 10px solid $blue;
 }
 
-.redTxt {
-  color: crimson;
+.prplTxt {
+  color: $purple;
   font-size: 1em;
   margin-top: 0.5em;
+}
+.redTxt {
+	color: crimson;
+	font-size: 1em;
+	margin-top: 0.5em;
 }
 
 .blueTxt {
@@ -338,32 +433,274 @@
 }
 
 .cardTxt {
-  color: rgb(34, 34, 34);
-  font-size: 0.8em;
-  margin-top: 0.5em;
+	color: rgb(34, 34, 34);
+	font-size: 0.8em;
+	margin-top: 0.5em;
 }
 
 // Article page 600px
 
 @media screen and (max-width: 800px) {
-  .container-article {
-    display: flex;
-    flex-direction: column;
-  }
+	.container-article {
+		display: flex;
+		flex-direction: column;
+	}
 
-  .container-figure-article {
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-  }
+	.container-figure-article {
+		margin-top: 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+	}
 
-  .figure-article {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
-  }
+	.figure-article {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		margin-top: 2em;
+	}
 }
+
+/* START LINKS AND PUBLICATIONS PART 
+-------------------------------------*/
+
+.links-hero {
+	background-color: $grey-white;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height: 30vh;
+}
+
+.links-pub-header-text {
+	font-size: 1.2rem;
+	color: $black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+.links-pub-p {
+	color: $black;
+	font-size: 1rem;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+}
+
+.links-image {
+	position: absolute;
+	display: flex;
+	margin-top: 8em;
+	width: $hero-image-width;
+	height: 40vh;
+	border-top: 10px solid $blue;
+	
+}
+.links-image img {
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+
+.links-pub-text {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	margin-top: 40vh;
+	margin-bottom: 2em;
+	font-size: 0.9rem;
+	color: $black;
+	text-align: center;
+}
+
+.links-pub-text div {
+	padding-bottom: 3em;
+}
+.links-pub-text h2 {
+	padding-bottom: 1em;
+}
+.links-pub-text p {
+	padding-bottom: 0.5em;
+}
+.links-pub-text a {
+	text-decoration: $text-decoration1;
+	color: $black;
+}
+
+/*PUBLICATIONS PART*/
+
+.pub-hero {
+	background-color: $blue;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height: 50vh;
+}
+
+.pub-image {
+	position: absolute;
+	display: flex;
+	margin-top: 17em;
+	width: $hero-image-width;
+	height: 40vh;
+	border-top: 10px solid $yellow;
+}
+.pub-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+	.links-hero {
+		height: 50vh;
+	}
+
+	.links-pub-header-text {
+		font-size: 6rem;
+	}
+	.links-pub-p {
+		font-size: 2rem;
+	}
+	.links-image {
+		margin-top: 20em;
+	}
+	.links-pub-text {
+		margin-top: 40vh;
+		font-size: 2rem;
+	}
+	.pub-hero {
+		height: 60vh;
+	}
+	.pub-image {
+		margin-top: 25em;
+	}
+}
+
+/* END LINKS AND PUBLICATIONS PART 
+----------------------------------*/
+
+
+// Internationellt
+
+.container-article {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container-btn-stip {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+	.internationellt-hero {
+	background-color: $purple;
+	// position:relative;
+	display:flex;
+	flex-direction: column;
+	flex-basis:0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height:30em;
+	}
+
+	.internationellt-image {
+		position: absolute;
+		display: flex;
+		margin-top: 15em;
+		width: $hero-image-width;
+		height: 22em;
+		border-top: 10px solid $article-hero-color;
+	}
+
+	.purpleTxt {
+		color: $purple;
+		font-size: 1em;
+		margin-top: 0.5em;
+	}
+
+	//Jämställdhet
+
+	.jämställdhet-hero {
+		background-color: $blue;
+    	color: $white;
+		// position:relative;
+		display:flex;
+		flex-direction: column;
+		flex-basis:0;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		height:30em;
+		}
+
+	.Jämställdhet-image {
+		position: absolute;
+		display: flex;
+		margin-top: 15em;
+		width: $hero-image-width;
+		height: 22em;
+		border-top: 10px solid $pink;
+	}
+
+		// Ekonomiska och sociala villkor
+
+		.villkor-hero {
+			background-color: $yellow;
+			// position:relative;
+			display:flex;
+			flex-direction: column;
+			flex-basis:0;
+			justify-content: flex-start;
+			align-items: center;
+			align-content: center;
+			height:30em;
+		}
+
+		.villkor-image {
+			position: absolute;
+			display: flex;
+			margin-top: 15em;
+			width: $hero-image-width;
+			height: 22em;
+			border-top: 10px solid $blue;
+		}
+
+    //INDEX SIDA
+
+    .index-hero {
+      background-color: $pink;
+      // position:relative;
+      display:flex;
+      flex-direction: column;
+      flex-basis:0;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      height:30em;
+    }
+
+    .index-image {
+        position: absolute;
+        display: flex;
+        margin-top: 15em;
+        width: $hero-image-width;
+        height: 28em;
+        //ÄNDRA HEIGHT
+        border-top: 10px solid $blue;
+	}
