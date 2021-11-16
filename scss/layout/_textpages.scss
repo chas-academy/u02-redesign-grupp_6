@@ -1,3 +1,29 @@
+// Same on all platforms
+
+.article-p {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+.article-text {
+  width: 80%;
+  margin: auto;
+  //lagt till	
+  margin-top: 8em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+
+}
+
 .container-article {
   display: flex;
   flex-flow: column wrap;
@@ -247,3 +273,120 @@
     margin-top: 2em;
   }
 }
+
+// Internationellt
+
+.container-article {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.internationellt-hero {
+	background-color: $purple;
+	// position:relative;
+	display:flex;
+	flex-direction: column;
+	flex-basis:0;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	height:30em;
+	}
+
+	.internationellt-image {
+		position: absolute;
+		display: flex;
+		margin-top: 15em;
+		width: $hero-image-width;
+		height: 22em;
+		
+		border-top: 10px solid $article-hero-color;
+	}
+
+	.purpleTxt {
+		color: $purple;
+		font-size: 1em;
+		margin-top: 0.5em;
+	}
+
+	//Jämställdhet
+
+	.jämställdhet-hero {
+		background-color: $blue;
+    color: $white;
+		// position:relative;
+		display:flex;
+		flex-direction: column;
+		flex-basis:0;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		height:30em;
+		}
+
+		.Jämställdhet-image {
+			position: absolute;
+			display: flex;
+			margin-top: 15em;
+			width: $hero-image-width;
+			height: 22em;
+			
+			border-top: 10px solid $pink;
+		}
+
+		// Ekonomiska och sociala villkor
+
+		.villkor-hero {
+			background-color: $yellow;
+			// position:relative;
+			display:flex;
+			flex-direction: column;
+			flex-basis:0;
+			justify-content: flex-start;
+			align-items: center;
+			align-content: center;
+			height:30em;
+		}
+
+		.villkor-image {
+			position: absolute;
+			display: flex;
+			margin-top: 15em;
+			width: $hero-image-width;
+			height: 22em;
+			
+			border-top: 10px solid $blue;
+		}
+
+    //INDEX SIDA
+
+    .index-hero {
+      background-color: $pink;
+      // position:relative;
+      display:flex;
+      flex-direction: column;
+      flex-basis:0;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      height:30em;
+    }
+
+    .index-image {
+        position: absolute;
+        display: flex;
+        margin-top: 15em;
+        width: $hero-image-width;
+        height: 28em;
+        //ÄNDRA HEIGHT
+        border-top: 10px solid $blue;
+      }
+  
+
+  
+	
