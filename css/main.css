@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* Global variables */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap%27");
+@import url("http://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 /* Reset */
 *,
 *:before,
@@ -13,7 +15,7 @@
 
 /* Body */
 body {
-  font: 100% Helvetica, sans-serif;
+  font: 100% Open Sans, sans-serif;
   color: #333;
   background-color: white;
 }
