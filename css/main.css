@@ -210,7 +210,8 @@ body {
   width: 25%;
   background-color: #f0c124;
   border-radius: 10px;
-  color: white;
+  color: black;
+  font-weight: bold;
   margin-right: 10%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -225,6 +226,7 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 5px;
+  border: 1px, solid, black;
 }
 
 .nav-top {
@@ -1111,7 +1113,7 @@ figure img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 90%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1119,7 +1121,7 @@ figure img {
   .menu-bar ul li {
     margin: 0px;
     margin-left: -20px;
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
@@ -1239,6 +1241,10 @@ figure img {
   border-color: red;
 }
 
+.border-top {
+  border-top: 6px solid #B03DBA;
+}
+
 .om-hero {
   background-color: #F0cF24;
   display: -webkit-box;
@@ -1261,7 +1267,7 @@ figure img {
   height: 30em;
 }
 
-.om-hero .om-header-text {
+.om-header-text {
   width: 50%;
   margin: auto;
   margin: 0;
@@ -1275,7 +1281,7 @@ figure img {
   text-align: center;
 }
 
-.om-hero .om-p {
+.om-p {
   display: block;
   color: white;
   font-size: 1.5vw;
@@ -1288,12 +1294,13 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 70%;
 }
 
-@media screen and (max-width: 500px) {
-  .about-text,
-  .about-p {
-    font-size: 3, 5vw;
+@media screen and (max-width: 800px) {
+  .om-p {
+    font-size: 3vw;
+    width: 80%;
   }
 }
 
@@ -1364,10 +1371,14 @@ figure img {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .uppdrag-text,
-  .uppdrag-p {
+@media screen and (max-width: 800px) {
+  .uppdrag-text {
     font-size: 3.5vw;
+    margin-bottom: 15vh;
+  }
+  .uppdrag-p {
+    font-size: 5.5vw;
+    width: 80%;
   }
 }
 
@@ -1419,7 +1430,7 @@ figure img {
 .analys-p {
   display: block;
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1432,10 +1443,95 @@ figure img {
   width: 50%;
 }
 
-@media screen and (max-width: 500px) {
-  .analys-text,
+@media screen and (max-width: 690px) {
+  .analys-text {
+    font-size: 3.5vw;
+    width: 70%;
+    margin-bottom: 15vh;
+  }
   .analys-p {
     font-size: 3.5vw;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .analys-p {
+    font-size: 4.5vw;
+  }
+}
+
+.stip-hero {
+  background-color: #F95791;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 30em;
+}
+
+.stip-header-text {
+  font-size: 5vw;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.stip-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 55vh;
+  margin-bottom: 20vh;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5vw;
+}
+
+.stip-p {
+  display: block;
+  color: white;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .stip-text {
+    font-size: 4.5vw;
+    margin-bottom: 6vh;
+    margin-top: 40vh;
+    width: 80%;
+  }
+  .stip-p {
+    font-size: 4vw;
+    width: 90%;
   }
 }
 
@@ -1473,8 +1569,8 @@ figure img {
   border-top: 10px solid #4643d1;
 }
 
-.redTxt {
-  color: crimson;
+.prplTxt {
+  color: #B03DBA;
   font-size: 1em;
   margin-top: 0.5em;
 }
@@ -1523,5 +1619,15 @@ figure img {
             justify-content: center;
     margin-top: 2em;
   }
+}
+
+.container-btn-stip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
