@@ -58,7 +58,6 @@
 }
 //----------OM OSS
 
-<<<<<<< HEAD
 .om-hero {
   background-color: $yellow;
   display: flex;
@@ -99,60 +98,6 @@
     font-size: 3vw;
     width: 80%;
   }
-=======
-.about-hero {
-	background-color: $yellow;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height: 30em;
-
-	.about-header-text {
-		width: 50%;
-		margin: auto;
-		margin: 0;
-		padding: 0;
-		font-size: $hero-header-size-text;
-		color: $white;
-		text-transform: uppercase;
-		display: block;
-		margin: 0;
-		margin-top: 0em;
-		text-align: center;
-	}
-
-	.about-text {
-		width: 60%;
-		margin: auto;
-		margin-top: 35vh;
-		margin-bottom: 35vh;
-		background-color: $white;
-		color: $black;
-		text-align: center;
-		justify-content: center;
-		font-size: 1.5vw;
-	}
-
-	.about-p {
-		display: block;
-		color: $white;
-		font-size: 1.5vw;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
-		text-align: center;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.about-text,
-	.about-p {
-		font-size: 3, 5vw;
-	}
->>>>>>> origin
 }
 
 //---------REGERINGSUPPDRAG
@@ -205,7 +150,6 @@
 	}
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 800px) {
   .uppdrag-text {
     font-size: 3.5vw;
@@ -215,13 +159,6 @@
     font-size: 5.5vw;
     width: 80%;
   }
-=======
-@media screen and (max-width: 500px) {
-	.uppdrag-text,
-	.uppdrag-p {
-		font-size: 3.5vw;
-	}
->>>>>>> origin
 }
 
 //------------ANALYS OCH UTREDNING
@@ -258,7 +195,6 @@
 }
 
 .analys-p {
-<<<<<<< HEAD
   display: block;
   color: $black;
   font-size: 1.7vw;
@@ -280,6 +216,122 @@
     width: 70%;
   }
 }
+
+//---------NYHETER
+
+.nyheter-hero {
+  background-color: $purple;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.nyheter-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.nyheter-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.nyheter-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container-figure-article {
+    margin-left: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nyheter-text,
+  .nyheter-p {
+    font-size: 3.5vw;
+  }
+}
+
+// ---- KALENDARIUM
+
+.kalendarium-hero {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.kalendarium-header-text {
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.kalendarium-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.kalendarium-p {
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container-figure-article {
+    margin-left: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .kalendarium-text,
+  .kalendarium-p {
+    font-size: 3.5vw;
+  }
+}
+
+//------------ANALYS OCH UTREDNING
 
 @media screen and (max-width: 400px) {
   .analys-p {
@@ -340,23 +392,6 @@
     font-size: 4vw;
     width: 90%;
   }
-=======
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 50%;
-}
-
-@media screen and (max-width: 500px) {
-	.analys-text,
-	.analys-p {
-		font-size: 3.5vw;
-	}
->>>>>>> origin
 }
 
 .width {
@@ -380,17 +415,21 @@
 	border-top: 10px solid $blue;
 }
 
-<<<<<<< HEAD
 .prplTxt {
   color: $purple;
   font-size: 1em;
   margin-top: 0.5em;
-=======
+}
 .redTxt {
 	color: crimson;
 	font-size: 1em;
 	margin-top: 0.5em;
->>>>>>> origin
+}
+
+.blueTxt {
+  color: $blue;
+  font-size: 1em;
+  margin-top: 0.5em;
 }
 
 .cardTxt {
@@ -563,14 +602,12 @@
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .container-btn-stip {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-=======
-.internationellt-hero {
+	.internationellt-hero {
 	background-color: $purple;
 	// position:relative;
 	display:flex;
@@ -588,7 +625,6 @@
 		margin-top: 15em;
 		width: $hero-image-width;
 		height: 22em;
-		
 		border-top: 10px solid $article-hero-color;
 	}
 
@@ -602,7 +638,7 @@
 
 	.jämställdhet-hero {
 		background-color: $blue;
-    color: $white;
+    	color: $white;
 		// position:relative;
 		display:flex;
 		flex-direction: column;
@@ -613,15 +649,14 @@
 		height:30em;
 		}
 
-		.Jämställdhet-image {
-			position: absolute;
-			display: flex;
-			margin-top: 15em;
-			width: $hero-image-width;
-			height: 22em;
-			
-			border-top: 10px solid $pink;
-		}
+	.Jämställdhet-image {
+		position: absolute;
+		display: flex;
+		margin-top: 15em;
+		width: $hero-image-width;
+		height: 22em;
+		border-top: 10px solid $pink;
+	}
 
 		// Ekonomiska och sociala villkor
 
@@ -643,7 +678,6 @@
 			margin-top: 15em;
 			width: $hero-image-width;
 			height: 22em;
-			
 			border-top: 10px solid $blue;
 		}
 
@@ -669,7 +703,4 @@
         height: 28em;
         //ÄNDRA HEIGHT
         border-top: 10px solid $blue;
-      }
-  
-
->>>>>>> origin
+	}
