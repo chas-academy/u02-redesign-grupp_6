@@ -52,8 +52,54 @@
 
 	border-color: red;
 }
+
+.border-top {
+  border-top: 6px solid $purple;
+}
 //----------OM OSS
 
+<<<<<<< HEAD
+.om-hero {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.om-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $white;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
+
+.om-p {
+  display: block;
+  color: $white;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .om-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+=======
 .about-hero {
 	background-color: $yellow;
 	display: flex;
@@ -106,6 +152,7 @@
 	.about-p {
 		font-size: 3, 5vw;
 	}
+>>>>>>> origin
 }
 
 //---------REGERINGSUPPDRAG
@@ -158,11 +205,23 @@
 	}
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 800px) {
+  .uppdrag-text {
+    font-size: 3.5vw;
+    margin-bottom: 15vh;
+  }
+  .uppdrag-p {
+    font-size: 5.5vw;
+    width: 80%;
+  }
+=======
 @media screen and (max-width: 500px) {
 	.uppdrag-text,
 	.uppdrag-p {
 		font-size: 3.5vw;
 	}
+>>>>>>> origin
 }
 
 //------------ANALYS OCH UTREDNING
@@ -199,6 +258,89 @@
 }
 
 .analys-p {
+<<<<<<< HEAD
+  display: block;
+  color: $black;
+  font-size: 1.7vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 690px) {
+  .analys-text {
+    font-size: 3.5vw;
+    width: 70%;
+    margin-bottom: 15vh;
+  }
+  .analys-p {
+    font-size: 3.5vw;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .analys-p {
+    font-size: 4.5vw;
+  }
+}
+//----------Stipendier
+.stip-hero {
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+.stip-header-text {
+  font-size: 5vw;
+  color: $white;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.stip-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 55vh;
+  margin-bottom: 20vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.stip-p {
+  display: block;
+  color: $white;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .stip-text {
+    font-size: 4.5vw;
+    margin-bottom: 6vh;
+    margin-top: 40vh;
+    width: 80%;
+  }
+  .stip-p {
+    font-size: 4vw;
+    width: 90%;
+  }
+=======
 	display: block;
 	color: $black;
 	font-size: 1.5vw;
@@ -214,6 +356,7 @@
 	.analys-p {
 		font-size: 3.5vw;
 	}
+>>>>>>> origin
 }
 
 .width {
@@ -237,10 +380,17 @@
 	border-top: 10px solid $blue;
 }
 
+<<<<<<< HEAD
+.prplTxt {
+  color: $purple;
+  font-size: 1em;
+  margin-top: 0.5em;
+=======
 .redTxt {
 	color: crimson;
 	font-size: 1em;
 	margin-top: 0.5em;
+>>>>>>> origin
 }
 
 .cardTxt {
@@ -413,6 +563,13 @@
 	width: 100%;
 }
 
+<<<<<<< HEAD
+.container-btn-stip {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+=======
 .internationellt-hero {
 	background-color: $purple;
 	// position:relative;
@@ -515,3 +672,4 @@
       }
   
 
+>>>>>>> origin
