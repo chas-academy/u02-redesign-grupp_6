@@ -13,7 +13,7 @@
 .article-text {
   width: 80%;
   margin: auto;
-  //lagt till	
+  //lagt till
   margin-top: 8em;
   margin-bottom: 3em;
   background-color: $white;
@@ -21,17 +21,16 @@
   color: $black;
   text-align: center;
   justify-content: center;
-
 }
 
 .container-article {
-	display: flex;
-	flex-flow: column wrap;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .container-figure-article {
@@ -75,7 +74,7 @@
   margin: 0;
   padding: 0;
   font-size: $hero-header-size-text;
-  color: $white;
+  color: $black;
   text-transform: uppercase;
   display: block;
   margin: 0;
@@ -85,13 +84,44 @@
 
 .om-p {
   display: block;
-  color: $white;
+  color: $black;
   font-size: 1.5vw;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
+  width: 90%;
+}
+
+.om-text {
   width: 70%;
+  margin: auto;
+  margin-top: 35vh;
+  margin-bottom: 15vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 2vw;
+
+  li {
+    list-style-type: none;
+  }
+
+  li:before {
+    content: "-";
+  }
+}
+
+.about-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
 }
 
 @media screen and (max-width: 800px) {
@@ -99,56 +129,65 @@
     font-size: 3vw;
     width: 80%;
   }
+  .about-image {
+    height: 15em;
+  }
+
+  .om-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
 }
 
 //---------REGERINGSUPPDRAG
 
 .uppdrag-hero {
-	background-color: $grey-white;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height: 30em;
+  background-color: $grey-white;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
 }
 .uppdrag-header-text {
-	font-size: 5vw;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	text-align: center;
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
 }
 
 .uppdrag-text {
-	width: 70%;
-	margin: auto;
-	margin-top: 45vh;
-	margin-bottom: 35vh;
-	background-color: $white;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-align: center;
-	justify-content: center;
-	font-size: 1.5vw;
+  width: 70%;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 35vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
 }
 
 .uppdrag-p {
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 50%;
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
 }
 
 @media screen and (max-width: 800px) {
-	.container-figure-article {
-		margin-left: 3em;
-	}
+  .container-figure-article {
+    margin-left: 3em;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -165,56 +204,70 @@
 //------------ANALYS OCH UTREDNING
 
 .analys-hero {
-	background-color: $pink;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height: 30em;
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
 }
 .analys-header-text {
-	font-size: 5vw;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	text-align: center;
+  font-size: 5vw;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
 }
 
 .analys-text {
-	width: 70%;
-	margin: auto;
-	margin-top: 45vh;
-	margin-bottom: 35vh;
-	background-color: $white;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-align: center;
-	justify-content: center;
-	font-size: 1.5vw;
+  width: 70%;
+  margin: auto;
+  margin-top: 35vh;
+  margin-bottom: 15vh;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
 }
 
 .analys-p {
   display: block;
   color: $black;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  width: 50%;
+  width: 80%;
 }
 
-@media screen and (max-width: 690px) {
+.analys-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
+}
+
+@media screen and (max-width: 890px) {
   .analys-text {
     font-size: 3.5vw;
     width: 70%;
     margin-bottom: 15vh;
+    margin-top: 25vh;
   }
   .analys-p {
     font-size: 3.5vw;
     width: 70%;
+  }
+  .analys-image {
+    height: 18em;
   }
 }
 
@@ -288,7 +341,7 @@
   height: 30em;
 }
 .kalendarium-header-text {
-  font-size: 5vw;
+  font-size: 4vw;
   color: $black;
   text-transform: uppercase;
   display: block;
@@ -298,8 +351,8 @@
 .kalendarium-text {
   width: 70%;
   margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
+  margin-top: 30vh;
+  margin-bottom: 15vh;
   background-color: $white;
   font-size: $hero-header-size-text;
   color: $black;
@@ -316,19 +369,30 @@
   align-content: center;
   align-items: center;
   text-align: center;
-  width: 50%;
+  width: 90%;
 }
 
-@media screen and (max-width: 800px) {
-  .container-figure-article {
-    margin-left: 3em;
-  }
+.kalendarium-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
 }
 
 @media screen and (max-width: 500px) {
-  .kalendarium-text,
+  .kalendarium-image {
+    height: 18em;
+  }
   .kalendarium-p {
     font-size: 3.5vw;
+  }
+
+  .kalendarium-text {
+    font-size: 3vw;
+    margin-bottom: 7vh;
   }
 }
 
@@ -396,24 +460,24 @@
 }
 
 .width {
-	width: 80%;
-	padding-top: 2em;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
+  width: 80%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
 .article-image {
-	position: absolute;
-	display: flex;
-	margin-top: 15em;
-	width: $hero-image-width;
-	height: 22em;
-	background-color: rgb(48, 48, 48);
-	border-top: 10px solid $blue;
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
 }
 
 .prplTxt {
@@ -423,7 +487,6 @@
   margin-top: 0.5em;
   font-family: $font-stack;
 }
-
 
 .blueTxt {
   font-family: $font-stack;
@@ -442,165 +505,163 @@
 // Article page 600px
 
 @media screen and (max-width: 800px) {
-	.container-article {
-		display: flex;
-		flex-direction: column;
-	}
+  .container-article {
+    display: flex;
+    flex-direction: column;
+  }
 
-	.container-figure-article {
-		margin-top: 2em;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-content: center;
-		align-items: center;
-	}
+  .container-figure-article {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
 
-	.figure-article {
-		width: 80%;
-		display: flex;
-		justify-content: center;
-		margin-top: 2em;
-	}
+  .figure-article {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
 }
 
 /* START LINKS AND PUBLICATIONS PART 
 -------------------------------------*/
 
 .links-hero {
-	background-color: $grey-white;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height: 30vh;
+  background-color: $grey-white;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30vh;
 }
 
 .links-pub-header-text {
-	font-size: 1.2rem;
-	color: $black;
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 0.5em;
+  font-size: 1.2rem;
+  color: $black;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 .links-pub-p {
-	color: $black;
-	font-size: 1rem;
-	justify-content: center;
-	text-align: center;
-	width: 50%;
+  color: $black;
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
 }
 
 .links-image {
-	position: absolute;
-	display: flex;
-	margin-top: 8em;
-	width: $hero-image-width;
-	height: 40vh;
-	border-top: 10px solid $blue;
-	
+  position: absolute;
+  display: flex;
+  margin-top: 8em;
+  width: $hero-image-width;
+  height: 40vh;
+  border-top: 10px solid $blue;
 }
 .links-image img {
-	width: 100%;
-	height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .links-pub-text {
-	width: 70%;
-	height: auto;
-	margin: auto;
-	margin-top: 40vh;
-	margin-bottom: 2em;
-	font-size: 0.9rem;
-	color: $black;
-	text-align: center;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 40vh;
+  margin-bottom: 2em;
+  font-size: 0.9rem;
+  color: $black;
+  text-align: center;
 }
 
 .links-pub-text div {
-	padding-bottom: 3em;
+  padding-bottom: 3em;
 }
 .links-pub-text h2 {
-	padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 .links-pub-text p {
-	padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 .links-pub-text a {
-	text-decoration: $text-decoration1;
-	color: $black;
+  text-decoration: $text-decoration1;
+  color: $black;
 }
 
 /*PUBLICATIONS PART*/
 
 .pub-hero {
-	background-color: $blue;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height: 50vh;
+  background-color: $blue;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 50vh;
 }
 
 .pub-image {
-	position: absolute;
-	display: flex;
-	margin-top: 17em;
-	width: $hero-image-width;
-	height: 40vh;
-	border-top: 10px solid $yellow;
+  position: absolute;
+  display: flex;
+  margin-top: 17em;
+  width: $hero-image-width;
+  height: 40vh;
+  border-top: 10px solid $yellow;
 }
 .pub-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
-	.links-hero {
-		height: 50vh;
-	}
+  .links-hero {
+    height: 50vh;
+  }
 
-	.links-pub-header-text {
-		font-size: 6rem;
-	}
-	.links-pub-p {
-		font-size: 2rem;
-	}
-	.links-image {
-		margin-top: 20em;
-	}
-	.links-pub-text {
-		margin-top: 40vh;
-		font-size: 2rem;
-	}
-	.pub-hero {
-		height: 60vh;
-	}
-	.pub-image {
-		margin-top: 25em;
-	}
+  .links-pub-header-text {
+    font-size: 6rem;
+  }
+  .links-pub-p {
+    font-size: 2rem;
+  }
+  .links-image {
+    margin-top: 20em;
+  }
+  .links-pub-text {
+    margin-top: 40vh;
+    font-size: 2rem;
+  }
+  .pub-hero {
+    height: 60vh;
+  }
+  .pub-image {
+    margin-top: 25em;
+  }
 }
 
 /* END LINKS AND PUBLICATIONS PART 
 ----------------------------------*/
 
-
 // Internationellt
 
 .container-article {
-	display: flex;
-	flex-flow: column wrap;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .container-btn-stip {
@@ -608,100 +669,100 @@
   justify-content: center;
   width: 100%;
 }
-	.internationellt-hero {
-	background-color: $purple;
-	// position:relative;
-	display:flex;
-	flex-direction: column;
-	flex-basis:0;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	height:30em;
-	}
+.internationellt-hero {
+  background-color: $purple;
+  // position:relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
 
-	.internationellt-image {
-		position: absolute;
-		display: flex;
-		margin-top: 15em;
-		width: $hero-image-width;
-		height: 22em;
-		border-top: 10px solid $article-hero-color;
-	}
+.internationellt-image {
+  position: absolute;
+  display: flex;
+  margin-top: 15em;
+  width: $hero-image-width;
+  height: 22em;
+  border-top: 10px solid $article-hero-color;
+}
 
-	.purpleTxt {
-		color: $purple;
-		font-size: 1em;
-		margin-top: 0.5em;
-	}
+.purpleTxt {
+  color: $purple;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
 
-	//Jämställdhet
+//Jämställdhet
 
-	.jämställdhet-hero {
-		background-color: $blue;
-    	color: $white;
-		// position:relative;
-		display:flex;
-		flex-direction: column;
-		flex-basis:0;
-		justify-content: flex-start;
-		align-items: center;
-		align-content: center;
-		height:30em;
-		}
+.jämställdhet-hero {
+  background-color: $blue;
+  color: $white;
+  // position:relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
 
-	.Jämställdhet-image {
-		position: absolute;
-		display: flex;
-		margin-top: 15em;
-		width: $hero-image-width;
-		height: 22em;
-		border-top: 10px solid $pink;
-	}
+.Jämställdhet-image {
+  position: absolute;
+  display: flex;
+  margin-top: 15em;
+  width: $hero-image-width;
+  height: 22em;
+  border-top: 10px solid $pink;
+}
 
-		// Ekonomiska och sociala villkor
+// Ekonomiska och sociala villkor
 
-		.villkor-hero {
-			background-color: $yellow;
-			// position:relative;
-			display:flex;
-			flex-direction: column;
-			flex-basis:0;
-			justify-content: flex-start;
-			align-items: center;
-			align-content: center;
-			height:30em;
-		}
+.villkor-hero {
+  background-color: $yellow;
+  // position:relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
 
-		.villkor-image {
-			position: absolute;
-			display: flex;
-			margin-top: 15em;
-			width: $hero-image-width;
-			height: 22em;
-			border-top: 10px solid $blue;
-		}
+.villkor-image {
+  position: absolute;
+  display: flex;
+  margin-top: 15em;
+  width: $hero-image-width;
+  height: 22em;
+  border-top: 10px solid $blue;
+}
 
-    //INDEX SIDA
+//INDEX SIDA
 
-    .index-hero {
-      background-color: $pink;
-      // position:relative;
-      display:flex;
-      flex-direction: column;
-      flex-basis:0;
-      justify-content: flex-start;
-      align-items: center;
-      align-content: center;
-      height:30em;
-    }
+.index-hero {
+  background-color: $pink;
+  // position:relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
 
-    .index-image {
-        position: absolute;
-        display: flex;
-        margin-top: 15em;
-        width: $hero-image-width;
-        height: 28em;
-        //ÄNDRA HEIGHT
-        border-top: 10px solid $blue;
-	}
+.index-image {
+  position: absolute;
+  display: flex;
+  margin-top: 15em;
+  width: $hero-image-width;
+  height: 28em;
+  //ÄNDRA HEIGHT
+  border-top: 10px solid $blue;
+}

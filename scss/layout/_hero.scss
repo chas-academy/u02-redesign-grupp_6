@@ -1,27 +1,42 @@
 .hero {
-	background-color: $gray;
-	text-align: center;
-	color: $white;
-	font-size: $heading1;
-	height: $height2;
-	border: $border1;
+  background-color: $gray;
+  text-align: center;
+  color: $white;
+  font-size: $heading1;
+  height: $height2;
+  border: $border1;
 }
 
 .container-hero {
-	display: flex;
-	justify-content: center;
-	margin-right: 10vw;
-	margin-left: 10vw;
+  display: flex;
+  justify-content: center;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 .hero-image {
-	width: 70vw;
-	height: auto;
-	overflow: hidden;
+  width: 70vw;
+  height: auto;
+  overflow: hidden;
 }
 
 //Article page
 
+.article-hero {
+  background-color: $article-hero-color;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+// .article-image {
+// 	padding-top: 0.5em;
+// 	position: absolute;
+// 	display: flex;
+// 	top: 300px;
+// 	width: $hero-image-height;
+// 	height: $hero-image-height;
+// 	background-color: rgb(48, 48, 48);
 
 .article-hero{
 	background-color: $article-hero-color;
@@ -84,7 +99,33 @@
 	}
 
 
+//Articles page
 
-	
+.articles-hero {
+  background-color: $article-hero-color;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
 
-	
+.articles-image {
+  padding-top: 0.5em;
+  position: absolute;
+  display: flex;
+  right: 40%;
+  top: 200px;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(163, 163, 163);
+}
+.articles-image-overlap {
+  padding-top: 0.5em;
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 300px;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(48, 48, 48);
+}
