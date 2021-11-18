@@ -123,13 +123,74 @@ body {
   height: 500px;
 }
 
-.hero-header-text {
-  font-size: 40px;
-  color: white;
+.article-hero {
+  background-color: #7a7a7a;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+}
+
+.article-image {
+  padding-top: 0.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: #303030;
+}
+
+.hero-header-text {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
   text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.articles-hero {
+  background-color: #7a7a7a;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+}
+
+.articles-image {
+  padding-top: 0.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 40%;
+  top: 200px;
+  width: 700px;
+  height: 400px;
+  background-color: #a3a3a3;
+}
+
+.articles-image-overlap {
+  padding-top: 0.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  top: 300px;
+  width: 700px;
+  height: 400px;
+  background-color: #303030;
 }
 
 .articles-hero {
@@ -674,11 +735,18 @@ figure img {
   padding: 2em;
 }
 
-.videobox .item1 h3 {
+.videobox .item1 h2 {
   padding-bottom: 1em;
-  color: black;
 }
 
+.videobox .item2 {
+  margin-top: 2em;
+}
+
+.videobox iframe {
+  width: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
@@ -696,7 +764,7 @@ figure img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .item1 h3 {
+  .item1 h2 {
     font-size: 1.5rem;
   }
   .videobox .item2 {
@@ -711,10 +779,6 @@ figure img {
     -o-object-fit: cover;
        object-fit: cover;
   }
-}
-
-h3 {
-  color: white;
 }
 
 /*FOOTER------
@@ -1246,17 +1310,14 @@ h3 {
 }
 
 .article-p {
-  display: block;
   color: white;
-  font-size: 1.5em;
+  font-size: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1em;
 }
 
 .article-text {
@@ -1297,11 +1358,11 @@ h3 {
 .container-figure-article {
   margin-top: 2em;
   margin-bottom: 2em;
-  margin-left: 8em;
+  margin-left: 18em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 70%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1320,11 +1381,11 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-color: red;
+  height: 430px;
 }
 
 .border-top {
-  border-top: 6px solid #B03DBA;
+  border-top: 10px solid #B03DBA;
 }
 
 .om-hero {
@@ -1871,26 +1932,24 @@ h3 {
 }
 
 .prplTxt {
+  margin-bottom: 1em;
   color: #B03DBA;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 0.5em;
-}
-
-.redTxt {
-  color: crimson;
-  font-size: 1em;
-  margin-top: 0.5em;
+  font-family: Open Sans, sans-serif;
 }
 
 .blueTxt {
+  font-family: Open Sans, sans-serif;
   color: #4643d1;
-  font-size: 1em;
+  font-size: 2em;
   margin-top: 0.5em;
 }
 
 .cardTxt {
+  font-family: Open Sans, sans-serif;
   color: #222222;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-top: 0.5em;
 }
 

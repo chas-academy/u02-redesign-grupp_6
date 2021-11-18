@@ -38,13 +38,66 @@
 // 	height: $hero-image-height;
 // 	background-color: rgb(48, 48, 48);
 
-// }
-.hero-header-text {
-  font-size: $hero-header-size-text;
-  color: $white;
-  display: flex;
-  text-align: center;
-}
+.article-hero{
+	background-color: $article-hero-color;
+	position:relative;
+	display:flex;
+	justify-content: center;
+	height:500px;
+	}
+	.article-image {
+		padding-top: 0.5em;
+		position: absolute;
+		display: flex;
+		top: 300px;
+		width: $hero-image-height;
+		height: $hero-image-height;
+		background-color: rgb(48, 48, 48);
+		
+	}
+	.hero-header-text{
+		font-size: 5em;
+		color: $white;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 0.5em;
+
+	}
+	
+
+	
+
+	//Articles page
+
+	.articles-hero {
+	background-color: $article-hero-color;
+	position:relative;
+	display:flex;
+	justify-content: center;
+	height:500px;
+	}
+
+	.articles-image {
+		padding-top: 0.5em;
+		position: absolute;
+		display: flex;
+		right: 40%;
+		top: 200px;
+		width: 700px;
+		height: 400px;
+		background-color: rgb(163, 163, 163);
+	}
+	.articles-image-overlap {
+		padding-top: 0.5em;
+		position: absolute;
+		display: flex;
+		left: 50%;
+		top: 300px;
+		width: 700px;
+		height: 400px;
+		background-color: rgb(48, 48, 48);
+	}
+
 
 //Articles page
 
