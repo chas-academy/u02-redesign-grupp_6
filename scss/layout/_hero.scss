@@ -41,10 +41,11 @@
 		
 	}
 	.hero-header-text{
-	font-size: $hero-header-size-text;
-	color: $white;
-	display:flex;
-	text-align: center;
+		font-size: 5em;
+		color: $white;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 0.5em;
 
 	}
 	
