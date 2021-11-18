@@ -1,46 +1,50 @@
 .container-video {
-	background: $yellow;
-	width: $width;
-	margin-top: 3em;
+  background: $yellow;
+  width: $width;
+  margin-top: 3em;
 }
 
 .videobox {
-	width: 80%;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .videobox .item1 {
-	padding: 2em 0;
+  padding: 2em 0;
 }
-.videobox .item1 h2 {
-	padding-bottom: 1em;
+.videobox .item1 h3 {
+  padding-bottom: 1em;
+  color: $black;
 }
 
 .videobox .item1 p {
-	padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 .videobox .item2 {
-	padding: .5em 0 2em;
+  padding: 0.5em 0 2em;
 }
 
-
 @media screen and (min-width: 800px) and (max-width: 1920px) {
-	/*VIDEO-----
+  /*VIDEO-----
 	------*/
 
-	.videobox {
-		flex-direction: row;
-		gap: 5em;
-		justify-content: center;
-		padding: 5em 5em;
-	}
+  .videobox {
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    padding: 5em 5em;
+  }
 
-		.item1 h2 {
-		font-size: 1.5rem;
-	}
+  .item1 h3 {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  color: $white;
 }
