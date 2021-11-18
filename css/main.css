@@ -123,18 +123,6 @@ body {
   height: 500px;
 }
 
-.article-image {
-  padding-top: 0.5em;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 300px;
-  width: 300px;
-  height: 300px;
-  background-color: #303030;
-}
-
 .hero-header-text {
   font-size: 40px;
   color: white;
@@ -686,18 +674,11 @@ figure img {
   padding: 2em;
 }
 
-.videobox .item1 h2 {
+.videobox .item1 h3 {
   padding-bottom: 1em;
+  color: black;
 }
 
-.videobox .item2 {
-  margin-top: 2em;
-}
-
-.videobox iframe {
-  width: 100%;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1920px) {
@@ -715,7 +696,7 @@ figure img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .item1 h2 {
+  .item1 h3 {
     font-size: 1.5rem;
   }
   .videobox .item2 {
@@ -730,6 +711,10 @@ figure img {
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+
+h3 {
+  color: white;
 }
 
 /*FOOTER------
@@ -855,7 +840,7 @@ figure img {
 }
 
 .contact-header-text {
-  font-size: 1.2rem;
+  font-size: 40px;
   color: black;
   text-transform: uppercase;
   text-align: center;
@@ -864,12 +849,12 @@ figure img {
 
 .contact-p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 90%;
 }
 
 .contact-image {
@@ -894,9 +879,9 @@ figure img {
   width: 70%;
   height: auto;
   margin: auto;
-  margin-top: 40vh;
+  margin-top: 25vh;
   margin-bottom: 2em;
-  font-size: 0.9rem;
+  font-size: 2vw;
   color: black;
   text-align: center;
 }
@@ -997,7 +982,7 @@ figure img {
 }
 
 /*CONTACT FORM*/
-@media screen and (min-width: 800px) and (max-width: 1920px) {
+@media screen and (max-width: 800px) {
   .contact-hero {
     height: 55vh;
   }
@@ -1085,9 +1070,6 @@ figure img {
     -webkit-box-flex: 1;
         -ms-flex: 1 20em;
             flex: 1 20em;
-  }
-  figure img {
-    max-width: 100%;
   }
   .container-images-social {
     display: -webkit-box;
@@ -1229,7 +1211,7 @@ figure img {
   top: 60%;
   left: 10%;
   background-color: #f95791;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 3vw;
   padding-top: 10px;
@@ -1373,7 +1355,7 @@ figure img {
   margin: 0;
   padding: 0;
   font-size: 40px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   display: block;
   margin: 0;
@@ -1383,7 +1365,7 @@ figure img {
 
 .om-p {
   display: block;
-  color: white;
+  color: black;
   font-size: 1.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1394,13 +1376,56 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 90%;
+}
+
+.om-text {
   width: 70%;
+  margin: auto;
+  margin-top: 35vh;
+  margin-bottom: 15vh;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2vw;
+}
+
+.om-text li {
+  list-style-type: none;
+}
+
+.om-text li:before {
+  content: "-";
+}
+
+.about-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 30em;
+  background-color: #303030;
+  border-top: 10px solid #4643d1;
 }
 
 @media screen and (max-width: 800px) {
   .om-p {
     font-size: 3vw;
     width: 80%;
+  }
+  .about-image {
+    height: 15em;
+  }
+  .om-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
   }
 }
 
@@ -1515,8 +1540,8 @@ figure img {
 .analys-text {
   width: 70%;
   margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
+  margin-top: 35vh;
+  margin-bottom: 15vh;
   background-color: white;
   font-size: 40px;
   color: black;
@@ -1530,7 +1555,7 @@ figure img {
 .analys-p {
   display: block;
   color: black;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1540,18 +1565,34 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 50%;
+  width: 80%;
 }
 
-@media screen and (max-width: 690px) {
+.analys-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 30em;
+  background-color: #303030;
+  border-top: 10px solid #4643d1;
+}
+
+@media screen and (max-width: 890px) {
   .analys-text {
     font-size: 3.5vw;
     width: 70%;
     margin-bottom: 15vh;
+    margin-top: 25vh;
   }
   .analys-p {
     font-size: 3.5vw;
     width: 70%;
+  }
+  .analys-image {
+    height: 18em;
   }
 }
 
@@ -1652,7 +1693,7 @@ figure img {
 }
 
 .kalendarium-header-text {
-  font-size: 5vw;
+  font-size: 4vw;
   color: black;
   text-transform: uppercase;
   display: block;
@@ -1662,8 +1703,8 @@ figure img {
 .kalendarium-text {
   width: 70%;
   margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
+  margin-top: 30vh;
+  margin-bottom: 15vh;
   background-color: white;
   font-size: 40px;
   color: black;
@@ -1687,19 +1728,31 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 50%;
+  width: 90%;
 }
 
-@media screen and (max-width: 800px) {
-  .container-figure-article {
-    margin-left: 3em;
-  }
+.kalendarium-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 30em;
+  background-color: #303030;
+  border-top: 10px solid #4643d1;
 }
 
 @media screen and (max-width: 500px) {
-  .kalendarium-text,
+  .kalendarium-image {
+    height: 18em;
+  }
   .kalendarium-p {
     font-size: 3.5vw;
+  }
+  .kalendarium-text {
+    font-size: 3vw;
+    margin-bottom: 7vh;
   }
 }
 
@@ -1810,9 +1863,9 @@ figure img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 15em;
+  margin-top: 20em;
   width: 80%;
-  height: 22em;
+  height: 30em;
   background-color: #303030;
   border-top: 10px solid #4643d1;
 }
