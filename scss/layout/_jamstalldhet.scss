@@ -1,0 +1,79 @@
+.Jämställdhet-header-text {
+    width: 50%;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    font-size: $hero-header-size-text;
+    color: $white;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    margin-top: 0em;
+    text-align: center;
+  }
+  
+  .jämställdhet-hero {
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30em;
+  }
+  
+  .Jämställdhet-image {
+    position: absolute;
+    display: flex;
+    margin-top: 16em;
+    width: $hero-image-width;
+    height: 28em;
+    //ÄNDRA HEIGHT
+    border-top: 10px solid $pink;
+  }
+  
+  .Jämställdhet-p {
+    display: block;
+    color: $white;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .Jämställdhet-text {
+    width: 80%;
+    margin: auto;
+    //lagt till
+    margin-top: 10em;
+    margin-bottom: 3em;
+    background-color: $white;
+    font-size: $hero-header-size-text;
+    color: $black;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .Jämställdhet-p {
+      font-size: 3vw;
+      width: 80%;
+    }
+    .Jämställdhet-image {
+      height: 15em;
+    }
+  
+    .Jämställdhet-text {
+      margin-top: 18vh;
+      font-size: 3vw;
+      margin-bottom: 10vh;
+    }
+    .Jämställdhet-header-text {
+      font-size: $hero-header-size-text;
+      width: 130%;
+      margin-bottom: 4vh;
+    }
+  }

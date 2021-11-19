@@ -285,7 +285,7 @@
 }*/
 
 //---------NYHETER
-
+/*
 .nyheter-hero {
   background-color: $purple;
   display: flex;
@@ -340,7 +340,7 @@
     font-size: 3.5vw;
   }
 }
-
+*/
 // ---- KALENDARIUM
 
 /*.kalendarium-hero {
@@ -497,15 +497,15 @@
   align-content: center;
 }
 
-.article-image {
-  position: absolute;
-  display: flex;
-  margin-top: 20em;
-  width: $hero-image-width;
-  height: 30em;
-  background-color: rgb(48, 48, 48);
-  border-top: 10px solid $blue;
-}
+// .article-image {
+//   position: absolute;
+//   display: flex;
+//   margin-top: 20em;
+//   width: $hero-image-width;
+//   height: 30em;
+//   background-color: rgb(48, 48, 48);
+//   border-top: 10px solid $blue;
+// }
 
 .prplTxt {
   margin-bottom: 1em;
@@ -557,7 +557,7 @@
 
 /* START LINKS AND PUBLICATIONS PART 
 -------------------------------------*/
-
+/*
 .links-hero {
   background-color: $grey-white;
   display: flex;
@@ -623,9 +623,9 @@
   text-decoration: $text-decoration1;
   color: $black;
 }
-
+/*
 /*PUBLICATIONS PART*/
-
+/*
 .pub-hero {
   background-color: $blue;
   display: flex;
@@ -678,7 +678,7 @@
     height: 50vh;
   }
 }
-
+*/
 /* END LINKS AND PUBLICATIONS PART 
 ----------------------------------*/
 
@@ -892,6 +892,7 @@
 }*/
 
 // Jämställdhet
+/*
 .Jämställdhet-header-text {
   width: 50%;
   margin: auto;
@@ -970,7 +971,7 @@
     width: 130%;
     margin-bottom: 4vh;
   }
-}
+}*/
 
 // EKONOMISKA OCH SOCIALA VILLKOR
 .villkor-header-text {

@@ -1,0 +1,119 @@
+.links-hero {
+    background-color: $grey-white;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30vh;
+  }
+  
+  .links-pub-header-text {
+    font-size: 1.2rem;
+    color: $black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+  
+  .links-pub-p {
+    color: $black;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .links-image {
+    position: absolute;
+    display: flex;
+    margin-top: 8em;
+    width: $hero-image-width;
+    height: 40vh;
+    border-top: 10px solid $blue;
+  }
+  .links-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .links-pub-text {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 40vh;
+    margin-bottom: 2em;
+    font-size: 0.9rem;
+    color: $black;
+    text-align: center;
+  }
+  
+  .links-pub-text div {
+    padding-bottom: 3em;
+  }
+  .links-pub-text h2 {
+    padding-bottom: 1em;
+  }
+  .links-pub-text p {
+    padding-bottom: 0.5em;
+  }
+  .links-pub-text a {
+    text-decoration: $text-decoration1;
+    color: $black;
+  }
+
+  .pub-hero {
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
+  }
+  
+  .pub-image {
+    position: absolute;
+    display: flex;
+    margin-top: 17em;
+    width: $hero-image-width;
+    height: 40vh;
+    border-top: 10px solid $yellow;
+  }
+  .pub-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 1920px) {
+    .links-hero {
+      height: 50vh;
+    }
+  
+    .links-pub-header-text {
+      font-size: 3rem;
+    }
+    .links-pub-p {
+      font-size: 2rem;
+    }
+    .links-image {
+      height: 50vh;
+      margin-top: 20em;
+    }
+    .links-pub-text {
+      margin-top: 50vh;
+      font-size: 2rem;
+    }
+    .pub-hero {
+      height: 60vh;
+    }
+    .pub-image {
+      margin-top: 25em;
+      height: 50vh;
+    }
+  }
+  
