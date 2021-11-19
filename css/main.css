@@ -423,6 +423,49 @@ a {
   opacity: .98;
 }
 
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 10em;
+    margin-left: -3em;
+  }
+  .searchbar2 {
+    display: none;
+    width: 8em;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .container-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: auto;
+  }
+  .stip-btn {
+    height: 5vh;
+    width: 15vh;
+    margin-left: 3em;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 0.4em;
+  }
+}
+
 .figure-news {
   margin: 3em;
   padding-top: 0.5em;
