@@ -41,14 +41,14 @@
 	width: 70%;
 	justify-content: space-between;
 	align-content: center;
-	align-items: center;
+	
 }
 
 .figure-article {
 	width: 30%;
 	display: flex;
 	justify-content: center;
-	height: 430px;
+	height: auto;
 	
 	
 }
@@ -172,6 +172,15 @@
   justify-content: center;
   font-size: 1.5vw;
 }
+.uppdrag-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
+}
 
 .uppdrag-p {
   display: block;
@@ -196,8 +205,11 @@
     margin-bottom: 15vh;
   }
   .uppdrag-p {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
     width: 80%;
+  }
+  .uppdrag-image {
+    height: 20em;
   }
 }
 
@@ -415,8 +427,8 @@
   height: 30em;
 }
 .stip-header-text {
-  font-size: 5vw;
-  color: $white;
+  font-size: 3.5vw;
+  color: $black;
   text-transform: uppercase;
   display: block;
   text-align: center;
@@ -437,18 +449,29 @@
 
 .stip-p {
   display: block;
-  color: $white;
+  color: $black;
   font-size: 1.5vw;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  width: 60%;
+  width: 80%;
 }
+.stip-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 30em;
+  background-color: rgb(48, 48, 48);
+  border-top: 10px solid $blue;
+  
+}
+
 
 @media screen and (max-width: 800px) {
   .stip-text {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     margin-bottom: 6vh;
     margin-top: 40vh;
     width: 80%;
@@ -456,6 +479,10 @@
   .stip-p {
     font-size: 4vw;
     width: 90%;
+  }
+  .stip-image {
+    height: 20em;
+    margin-top: 23em;
   }
 }
 
@@ -543,18 +570,18 @@
 
 .links-pub-header-text {
   font-size: 1.2rem;
-  color: $black;
+  color: $white;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 0.5em;
 }
 
 .links-pub-p {
-  color: $black;
+  color: $white;
   font-size: 1rem;
   justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 70%;
 }
 
 .links-image {
@@ -629,16 +656,17 @@
   }
 
   .links-pub-header-text {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .links-pub-p {
     font-size: 2rem;
   }
   .links-image {
+    height: 50vh;
     margin-top: 20em;
   }
   .links-pub-text {
-    margin-top: 40vh;
+    margin-top: 50vh;
     font-size: 2rem;
   }
   .pub-hero {
@@ -646,6 +674,7 @@
   }
   .pub-image {
     margin-top: 25em;
+    height: 50vh;
   }
 }
 

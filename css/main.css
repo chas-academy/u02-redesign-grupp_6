@@ -735,7 +735,7 @@ figure img {
   padding: 2em;
 }
 
-.videobox .item1 h2 {
+.videobox .item1 h3 {
   padding-bottom: 1em;
 }
 
@@ -764,15 +764,15 @@ figure img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .item1 h2 {
+  .item1 h3 {
     font-size: 1.5rem;
   }
   .videobox .item2 {
     height: 250px;
     margin-top: 0;
-    -webkit-box-flex: .5;
-        -ms-flex: .5;
-            flex: .5;
+    -webkit-box-flex: 0.5;
+        -ms-flex: 0.5;
+            flex: 0.5;
   }
   .videobox iframe {
     height: 100%;
@@ -904,21 +904,20 @@ figure img {
 }
 
 .contact-header-text {
-  font-size: 40px;
+  font-size: 1.2rem;
   color: black;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 0.5em;
 }
 
 .contact-p {
   color: black;
-  font-size: 1.5vw;
+  font-size: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 .contact-image {
@@ -943,9 +942,9 @@ figure img {
   width: 70%;
   height: auto;
   margin: auto;
-  margin-top: 25vh;
+  margin-top: 40vh;
   margin-bottom: 2em;
-  font-size: 2vw;
+  font-size: 0.9rem;
   color: black;
   text-align: center;
 }
@@ -1046,18 +1045,19 @@ figure img {
 }
 
 /*CONTACT FORM*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 1920px) {
   .contact-hero {
     height: 55vh;
   }
   .contact-header-text {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .contact-p {
     font-size: 2rem;
   }
   .contact-image {
     margin-top: 25em;
+    height: 50vh;
   }
   .container-text {
     margin-top: 50vh;
@@ -1368,9 +1368,6 @@ figure img {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .figure-article {
@@ -1381,7 +1378,7 @@ figure img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 430px;
+  height: auto;
 }
 
 .border-top {
@@ -1535,6 +1532,18 @@ figure img {
   font-size: 1.5vw;
 }
 
+.uppdrag-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 30em;
+  background-color: #303030;
+  border-top: 10px solid #4643d1;
+}
+
 .uppdrag-p {
   display: block;
   color: black;
@@ -1563,8 +1572,11 @@ figure img {
     margin-bottom: 15vh;
   }
   .uppdrag-p {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
     width: 80%;
+  }
+  .uppdrag-image {
+    height: 20em;
   }
 }
 
@@ -1846,8 +1858,8 @@ figure img {
 }
 
 .stip-header-text {
-  font-size: 5vw;
-  color: white;
+  font-size: 3.5vw;
+  color: black;
   text-transform: uppercase;
   display: block;
   text-align: center;
@@ -1870,7 +1882,7 @@ figure img {
 
 .stip-p {
   display: block;
-  color: white;
+  color: black;
   font-size: 1.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1881,12 +1893,24 @@ figure img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 60%;
+  width: 80%;
+}
+
+.stip-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 30em;
+  background-color: #303030;
+  border-top: 10px solid #4643d1;
 }
 
 @media screen and (max-width: 800px) {
   .stip-text {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     margin-bottom: 6vh;
     margin-top: 40vh;
     width: 80%;
@@ -1894,6 +1918,10 @@ figure img {
   .stip-p {
     font-size: 4vw;
     width: 90%;
+  }
+  .stip-image {
+    height: 20em;
+    margin-top: 23em;
   }
 }
 
@@ -2019,20 +2047,20 @@ figure img {
 
 .links-pub-header-text {
   font-size: 1.2rem;
-  color: black;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 0.5em;
 }
 
 .links-pub-p {
-  color: black;
+  color: white;
   font-size: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 70%;
 }
 
 .links-image {
@@ -2127,16 +2155,17 @@ figure img {
     height: 50vh;
   }
   .links-pub-header-text {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .links-pub-p {
     font-size: 2rem;
   }
   .links-image {
+    height: 50vh;
     margin-top: 20em;
   }
   .links-pub-text {
-    margin-top: 40vh;
+    margin-top: 50vh;
     font-size: 2rem;
   }
   .pub-hero {
@@ -2144,6 +2173,7 @@ figure img {
   }
   .pub-image {
     margin-top: 25em;
+    height: 50vh;
   }
 }
 
