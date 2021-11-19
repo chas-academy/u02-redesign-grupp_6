@@ -1,11 +1,11 @@
 // Same on all platforms
 
 .article-p {
-	color: $white;
+	color: $black;
 	font-size: 2rem;
 	justify-content: center;
 	text-align: center;
-	width: 50%;
+	width: 70%;
 	margin-bottom: 1em;
 
 }
@@ -14,7 +14,7 @@
   width: 80%;
   margin: auto;
   //lagt till
-  margin-top: 8em;
+  margin-top: 12em;
   margin-bottom: 3em;
   background-color: $white;
   font-size: $hero-header-size-text;
@@ -41,20 +41,24 @@
 	width: 70%;
 	justify-content: space-between;
 	align-content: center;
-	align-items: center;
+	
 }
 
 .figure-article {
 	width: 30%;
 	display: flex;
 	justify-content: center;
-	height: 430px;
-	
+	height: auto;
+	margin-bottom: 50px;
 	
 }
 
 .border-top {
   border-top: 10px solid $purple;
+}
+
+.border-top-blue {
+	border-top: 10px solid $blue;
 }
 //----------OM OSS
 
@@ -351,7 +355,7 @@
 .kalendarium-text {
   width: 70%;
   margin: auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
   margin-bottom: 15vh;
   background-color: $white;
   font-size: $hero-header-size-text;
@@ -384,7 +388,7 @@
 
 @media screen and (max-width: 500px) {
   .kalendarium-image {
-    height: 18em;
+    height: 14em;
   }
   .kalendarium-p {
     font-size: 3.5vw;
@@ -489,10 +493,11 @@
 }
 
 .blueTxt {
-  font-family: $font-stack;
-  color: $blue;
-  font-size: 2em;
-  margin-top: 0.5em;
+	margin-bottom: 1em;
+	color: $blue;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	font-family: $font-stack;
 }
 
 .cardTxt {
@@ -669,16 +674,55 @@
   justify-content: center;
   width: 100%;
 }
+
 .internationellt-hero {
   background-color: $purple;
-  // position:relative;
   display: flex;
   flex-direction: column;
   flex-basis: 0;
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-  height: 30em;
+  height: 25em;
+}
+
+
+.internationellt-p {
+	display: block;
+	color: $black;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+}
+
+.internationellt-text {
+width: 80%;
+  margin: auto;
+  //lagt till
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+}
+
+.internationellt-header-text {
+	width: 50%;
+	margin: auto;
+	margin: 0;
+	padding: 0;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	margin-top: 0em;
+	text-align: center;
 }
 
 .internationellt-image {
@@ -686,9 +730,31 @@
   display: flex;
   margin-top: 15em;
   width: $hero-image-width;
-  height: 22em;
+  height: 32em;
   border-top: 10px solid $article-hero-color;
 }
+
+@media screen and (max-width: 800px) {
+	.internationellt-p {
+	  font-size: 3vw;
+	  width: 80%;
+	}
+	.internationellt-image{
+	  height: 15em;
+	}
+
+	.internationellt-text {
+	  margin-top: 18vh;
+	  font-size: 3vw;
+	  margin-bottom: 10vh;
+	}
+	
+	.internationellt-header-text {
+		font-size: $hero-header-size-text;
+		width: 120%;
+		margin-bottom: 4vh;
+	}
+  }
 
 .purpleTxt {
   color: $purple;
@@ -696,29 +762,6 @@
   margin-top: 0.5em;
 }
 
-//Jämställdhet
-
-.jämställdhet-hero {
-  background-color: $blue;
-  color: $white;
-  // position:relative;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  height: 30em;
-}
-
-.Jämställdhet-image {
-  position: absolute;
-  display: flex;
-  margin-top: 15em;
-  width: $hero-image-width;
-  height: 22em;
-  border-top: 10px solid $pink;
-}
 
 // Ekonomiska och sociala villkor
 
@@ -745,9 +788,23 @@
 
 //INDEX SIDA
 
+.hero-header-text{
+	width: 50%;
+	margin: auto;
+	margin: 0;
+	padding: 0;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	margin-top: 0em;
+	text-align: center;
+	
+}
+
 .index-hero {
   background-color: $pink;
-  // position:relative;
   display: flex;
   flex-direction: column;
   flex-basis: 0;
@@ -757,12 +814,231 @@
   height: 30em;
 }
 
+
+
+
 .index-image {
   position: absolute;
   display: flex;
-  margin-top: 15em;
+  margin-top: 20em;
   width: $hero-image-width;
   height: 28em;
   //ÄNDRA HEIGHT
   border-top: 10px solid $blue;
 }
+
+.index-p {
+	display: block;
+	color: $black;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+
+}
+
+.index-text {
+width: 80%;
+  margin: auto;
+  //lagt till
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+	.index-p {
+	  font-size: 3vw;
+	  width: 80%;
+	}
+	.index-image{
+	  height: 15em;
+	}
+
+	.index-text {
+	  margin-top: 18vh;
+	  font-size: 3vw;
+	  margin-bottom: 10vh;
+	}
+	.hero-header-text {
+		font-size: $hero-header-size-text;
+		width: 80%;
+		margin-bottom: 4vh;
+	  }
+  }
+
+  // Jämställdhet
+  .Jämställdhet-header-text {
+	width: 50%;
+	margin: auto;
+	margin: 0;
+	padding: 0;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	margin-top: 0em;
+	text-align: center;
+  }
+
+.jämställdhet-hero {
+  background-color: $blue;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+
+
+
+
+.Jämställdhet-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 28em;
+  //ÄNDRA HEIGHT
+  border-top: 10px solid $pink;
+}
+
+.Jämställdhet-p {
+	display: block;
+	color: $black;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+
+}
+
+.Jämställdhet-text {
+width: 80%;
+  margin: auto;
+  //lagt till
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+	.Jämställdhet-p {
+	  font-size: 3vw;
+	  width: 80%;
+	}
+	.Jämställdhet-image{
+	  height: 15em;
+	}
+
+	.Jämställdhet-text {
+	  margin-top: 18vh;
+	  font-size: 3vw;
+	  margin-bottom: 10vh;
+	}
+	.Jämställdhet-header-text {
+		font-size: $hero-header-size-text;
+		width: 130%;
+		margin-bottom: 4vh;
+	  }
+  }
+
+  // EKONOMISKA OCH SOCIALA VILLKOR
+  .villkor-header-text {
+	width: 50%;
+	margin: auto;
+	margin: 0;
+	padding: 0;
+	font-size: $hero-header-size-text;
+	color: $black;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	margin-top: 0em;
+	text-align: center;
+  }
+
+.villkor-hero {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 30em;
+}
+
+
+
+
+.villkor-image {
+  position: absolute;
+  display: flex;
+  margin-top: 20em;
+  width: $hero-image-width;
+  height: 28em;
+  //ÄNDRA HEIGHT
+  border-top: 10px solid $blue;
+}
+
+.villkor-p {
+	display: block;
+	color: $black;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+
+}
+
+.villkor-text {
+width: 80%;
+  margin: auto;
+  //lagt till
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: $white;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+	.villkor-p {
+	  font-size: 3vw;
+	  width: 80%;
+	}
+	.villkor-image{
+	  height: 15em;
+	}
+
+	.villkor-text {
+	  margin-top: 18vh;
+	  font-size: 3vw;
+	  margin-bottom: 10vh;
+	}
+	.villkor-header-text {
+		font-size: $hero-header-size-text;
+		width: 130%;
+		margin-bottom: 4vh;
+	  }
+  }
