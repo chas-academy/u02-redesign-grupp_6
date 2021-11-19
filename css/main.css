@@ -148,11 +148,11 @@ body {
 }
 
 .hero-header-text {
-  font-size: 5em;
-  color: white;
+  font-size: 5vw;
+  color: black;
   text-transform: uppercase;
+  display: block;
   text-align: center;
-  padding-bottom: 0.5em;
 }
 
 .articles-hero {
@@ -1310,20 +1310,20 @@ figure img {
 }
 
 .article-p {
-  color: white;
+  color: black;
   font-size: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin-bottom: 1em;
 }
 
 .article-text {
   width: 80%;
   margin: auto;
-  margin-top: 8em;
+  margin-top: 12em;
   margin-bottom: 3em;
   background-color: white;
   font-size: 40px;
@@ -1368,9 +1368,6 @@ figure img {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .figure-article {
@@ -1381,11 +1378,16 @@ figure img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 430px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .border-top {
   border-top: 10px solid #B03DBA;
+}
+
+.border-top-blue {
+  border-top: 10px solid #4643d1;
 }
 
 .om-hero {
@@ -1764,7 +1766,7 @@ figure img {
 .kalendarium-text {
   width: 70%;
   margin: auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
   margin-bottom: 15vh;
   background-color: white;
   font-size: 40px;
@@ -1806,7 +1808,7 @@ figure img {
 
 @media screen and (max-width: 500px) {
   .kalendarium-image {
-    height: 18em;
+    height: 14em;
   }
   .kalendarium-p {
     font-size: 3.5vw;
@@ -1940,10 +1942,11 @@ figure img {
 }
 
 .blueTxt {
-  font-family: Open Sans, sans-serif;
+  margin-bottom: 1em;
   color: #4643d1;
-  font-size: 2em;
+  font-size: 1.2em;
   margin-top: 0.5em;
+  font-family: Open Sans, sans-serif;
 }
 
 .cardTxt {
@@ -2199,7 +2202,51 @@ figure img {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  height: 30em;
+  height: 25em;
+}
+
+.internationellt-p {
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.internationellt-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.internationellt-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
 }
 
 .internationellt-image {
@@ -2209,48 +2256,34 @@ figure img {
   display: flex;
   margin-top: 15em;
   width: 80%;
-  height: 22em;
+  height: 32em;
   border-top: 10px solid #7a7a7a;
+}
+
+@media screen and (max-width: 800px) {
+  .internationellt-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .internationellt-image {
+    height: 15em;
+  }
+  .internationellt-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+  .internationellt-header-text {
+    font-size: 40px;
+    width: 120%;
+    margin-bottom: 4vh;
+  }
 }
 
 .purpleTxt {
   color: #B03DBA;
   font-size: 1em;
   margin-top: 0.5em;
-}
-
-.jämställdhet-hero {
-  background-color: #4643d1;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  height: 30em;
-}
-
-.Jämställdhet-image {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 15em;
-  width: 80%;
-  height: 22em;
-  border-top: 10px solid #F95791;
 }
 
 .villkor-hero {
@@ -2286,6 +2319,20 @@ figure img {
   border-top: 10px solid #4643d1;
 }
 
+.hero-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
+
 .index-hero {
   background-color: #F95791;
   display: -webkit-box;
@@ -2313,9 +2360,253 @@ figure img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 15em;
+  margin-top: 20em;
   width: 80%;
   height: 28em;
   border-top: 10px solid #4643d1;
+}
+
+.index-p {
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.index-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .index-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .index-image {
+    height: 15em;
+  }
+  .index-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+  .hero-header-text {
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+}
+
+.Jämställdhet-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
+
+.jämställdhet-hero {
+  background-color: #4643d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 30em;
+}
+
+.Jämställdhet-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 28em;
+  border-top: 10px solid #F95791;
+}
+
+.Jämställdhet-p {
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.Jämställdhet-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .Jämställdhet-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .Jämställdhet-image {
+    height: 15em;
+  }
+  .Jämställdhet-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+  .Jämställdhet-header-text {
+    font-size: 40px;
+    width: 130%;
+    margin-bottom: 4vh;
+  }
+}
+
+.villkor-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
+
+.villkor-hero {
+  background-color: #F0cF24;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 30em;
+}
+
+.villkor-image {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20em;
+  width: 80%;
+  height: 28em;
+  border-top: 10px solid #4643d1;
+}
+
+.villkor-p {
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.villkor-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .villkor-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .villkor-image {
+    height: 15em;
+  }
+  .villkor-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+  .villkor-header-text {
+    font-size: 40px;
+    width: 130%;
+    margin-bottom: 4vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */
