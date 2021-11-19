@@ -143,76 +143,76 @@
 
 //---------REGERINGSUPPDRAG
 
-.uppdrag-hero {
-  background-color: $grey-white;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  height: 30em;
-}
-.uppdrag-header-text {
-  font-size: 5vw;
-  color: $black;
-  text-transform: uppercase;
-  display: block;
-  text-align: center;
-}
+// .uppdrag-hero {
+//   background-color: $grey-white;
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 0;
+//   justify-content: flex-start;
+//   align-items: center;
+//   align-content: center;
+//   height: 30em;
+// }
+// .uppdrag-header-text {
+//   font-size: 5vw;
+//   color: $black;
+//   text-transform: uppercase;
+//   display: block;
+//   text-align: center;
+// }
 
-.uppdrag-text {
-  width: 70%;
-  margin: auto;
-  margin-top: 45vh;
-  margin-bottom: 35vh;
-  background-color: $white;
-  font-size: $hero-header-size-text;
-  color: $black;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.5vw;
-}
-.uppdrag-image {
-  position: absolute;
-  display: flex;
-  margin-top: 20em;
-  width: $hero-image-width;
-  height: 30em;
-  background-color: rgb(48, 48, 48);
-  border-top: 10px solid $blue;
-}
+// .uppdrag-text {
+//   width: 70%;
+//   margin: auto;
+//   margin-top: 45vh;
+//   margin-bottom: 35vh;
+//   background-color: $white;
+//   font-size: $hero-header-size-text;
+//   color: $black;
+//   text-align: center;
+//   justify-content: center;
+//   font-size: 1.5vw;
+// }
+// .uppdrag-image {
+//   position: absolute;
+//   display: flex;
+//   margin-top: 20em;
+//   width: $hero-image-width;
+//   height: 30em;
+//   background-color: rgb(48, 48, 48);
+//   border-top: 10px solid $blue;
+// }
 
-.uppdrag-p {
-  display: block;
-  color: $black;
-  font-size: 1.5vw;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  width: 50%;
-}
+// .uppdrag-p {
+//   display: block;
+//   color: $black;
+//   font-size: 1.5vw;
+//   justify-content: center;
+//   align-content: center;
+//   align-items: center;
+//   text-align: center;
+//   width: 50%;
+// }
 
-@media screen and (max-width: 800px) {
-  .container-figure-article {
-    margin-left: 3em;
-  }
-}
+// @media screen and (max-width: 800px) {
+//   .container-figure-article {
+//     margin-left: 3em;
+//   }
+// }
 
-@media screen and (max-width: 800px) {
-  .uppdrag-text {
-    font-size: 3.5vw;
-    margin-bottom: 15vh;
-  }
-  .uppdrag-p {
-    font-size: 3.5vw;
-    width: 80%;
-  }
-  .uppdrag-image {
-    height: 20em;
-  }
-}
+// @media screen and (max-width: 800px) {
+//   .uppdrag-text {
+//     font-size: 3.5vw;
+//     margin-bottom: 15vh;
+//   }
+//   .uppdrag-p {
+//     font-size: 3.5vw;
+//     width: 80%;
+//   }
+//   .uppdrag-image {
+//     height: 20em;
+//   }
+// }
 
 //------------ANALYS OCH UTREDNING
 
@@ -418,73 +418,73 @@
   }
 }
 //----------Stipendier
-.stip-hero {
-  background-color: $pink;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  height: 30em;
-}
-.stip-header-text {
-  font-size: 3.5vw;
-  color: $black;
-  text-transform: uppercase;
-  display: block;
-  text-align: center;
-}
+// .stip-hero {
+//   background-color: $pink;
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 0;
+//   justify-content: flex-start;
+//   align-items: center;
+//   align-content: center;
+//   height: 30em;
+// }
+// .stip-header-text {
+//   font-size: 3.5vw;
+//   color: $black;
+//   text-transform: uppercase;
+//   display: block;
+//   text-align: center;
+// }
 
-.stip-text {
-  width: 70%;
-  margin: auto;
-  margin-top: 55vh;
-  margin-bottom: 20vh;
-  background-color: $white;
-  font-size: $hero-header-size-text;
-  color: $black;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.5vw;
-}
+// .stip-text {
+//   width: 70%;
+//   margin: auto;
+//   margin-top: 55vh;
+//   margin-bottom: 20vh;
+//   background-color: $white;
+//   font-size: $hero-header-size-text;
+//   color: $black;
+//   text-align: center;
+//   justify-content: center;
+//   font-size: 1.5vw;
+// }
 
-.stip-p {
-  display: block;
-  color: $black;
-  font-size: 1.5vw;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  width: 80%;
-}
-.stip-image {
-  position: absolute;
-  display: flex;
-  margin-top: 20em;
-  width: $hero-image-width;
-  height: 30em;
-  background-color: rgb(48, 48, 48);
-  border-top: 10px solid $blue;
-}
+// .stip-p {
+//   display: block;
+//   color: $black;
+//   font-size: 1.5vw;
+//   justify-content: center;
+//   align-content: center;
+//   align-items: center;
+//   text-align: center;
+//   width: 80%;
+// }
+// .stip-image {
+//   position: absolute;
+//   display: flex;
+//   margin-top: 20em;
+//   width: $hero-image-width;
+//   height: 30em;
+//   background-color: rgb(48, 48, 48);
+//   border-top: 10px solid $blue;
+// }
 
-@media screen and (max-width: 800px) {
-  .stip-text {
-    font-size: 3.5vw;
-    margin-bottom: 6vh;
-    margin-top: 40vh;
-    width: 80%;
-  }
-  .stip-p {
-    font-size: 4vw;
-    width: 90%;
-  }
-  .stip-image {
-    height: 20em;
-    margin-top: 23em;
-  }
-}
+// @media screen and (max-width: 800px) {
+//   .stip-text {
+//     font-size: 3.5vw;
+//     margin-bottom: 6vh;
+//     margin-top: 40vh;
+//     width: 80%;
+//   }
+//   .stip-p {
+//     font-size: 4vw;
+//     width: 90%;
+//   }
+//   .stip-image {
+//     height: 20em;
+//     margin-top: 23em;
+//   }
+// }
 
 .width {
   width: 80%;
