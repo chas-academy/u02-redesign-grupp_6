@@ -13,8 +13,8 @@
 }
 
 .stip-btn {
-  height: 8vh;
-  width: 25%;
+  height: 6vh;
+  width: 23vh;
   background-color: #f0c124;
   border-radius: 10px;
   color: $black;
@@ -32,11 +32,12 @@
   width: 100%;
 }
 
-.searchbar {
+.searchbar2 {
+  width: 19em;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 5px;
-  border: 1px, solid, $black;
+  border: 1px solid $black;
 }
 
 .nav-top {
