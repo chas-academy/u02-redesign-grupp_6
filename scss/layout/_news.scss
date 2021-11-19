@@ -44,3 +44,23 @@ figure img {
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .container-news {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .container-figure-news {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .figure-news {
+    width: auto;
+    flex: 1 20em;
+  }
+}

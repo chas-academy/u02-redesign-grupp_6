@@ -1,0 +1,102 @@
+
+// Ekonomiska och sociala villkor
+
+.villkor-hero {
+    background-color: $yellow;
+    // position:relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30em;
+  }
+  
+  .villkor-image {
+    position: absolute;
+    display: flex;
+    margin-top: 15em;
+    width: $hero-image-width;
+    height: 22em;
+    border-top: 10px solid $blue;
+  }
+  .villkor-header-text {
+    width: 50%;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    font-size: $hero-header-size-text;
+    color: $black;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    margin-top: 0em;
+    text-align: center;
+  }
+  
+  .villkor-hero {
+    background-color: $yellow;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30em;
+  }
+  
+  .villkor-image {
+    position: absolute;
+    display: flex;
+    margin-top: 20em;
+    width: $hero-image-width;
+    height: 28em;
+    //ÄNDRA HEIGHT
+    border-top: 10px solid $blue;
+  }
+  
+  .villkor-p {
+    display: block;
+    color: $black;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .villkor-text {
+    width: 80%;
+    margin: auto;
+    //lagt till
+    margin-top: 10em;
+    margin-bottom: 3em;
+    background-color: $white;
+    font-size: $hero-header-size-text;
+    color: $black;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .villkor-p {
+      font-size: 3vw;
+      width: 80%;
+    }
+    .villkor-image {
+      height: 15em;
+    }
+  
+    .villkor-text {
+      margin-top: 18vh;
+      font-size: 3vw;
+      margin-bottom: 10vh;
+    }
+    .villkor-header-text {
+      font-size: $hero-header-size-text;
+      width: 130%;
+      margin-bottom: 4vh;
+    }
+  }
