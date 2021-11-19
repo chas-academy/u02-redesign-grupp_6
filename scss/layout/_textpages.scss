@@ -1,13 +1,12 @@
 // Same on all platforms
 
 .article-p {
-	color: $black;
-	font-size: 2rem;
-	justify-content: center;
-	text-align: center;
-	width: 70%;
-	margin-bottom: 1em;
-
+  color: $black;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 1em;
 }
 
 .article-text {
@@ -34,25 +33,22 @@
 }
 
 .container-figure-article {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	margin-left: 18em;
-	display: flex;
-	width: 70%;
-	justify-content: space-between;
-	align-content: center;
-	
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 18em;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .figure-article {
-	width: 30%;
-	display: flex;
-	justify-content: center;
-	height: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  height: auto;
 
-	margin-bottom: 50px;
-
-	
+  margin-bottom: 50px;
 }
 
 .border-top {
@@ -60,7 +56,7 @@
 }
 
 .border-top-blue {
-	border-top: 10px solid $blue;
+  border-top: 10px solid $blue;
 }
 //----------OM OSS
 
@@ -369,7 +365,7 @@
 .kalendarium-text {
   width: 70%;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 35vh;
   margin-bottom: 15vh;
   background-color: $white;
   font-size: $hero-header-size-text;
@@ -411,6 +407,7 @@
   .kalendarium-text {
     font-size: 3vw;
     margin-bottom: 7vh;
+    margin-top: 20vh;
   }
 }
 
@@ -471,9 +468,7 @@
   height: 30em;
   background-color: rgb(48, 48, 48);
   border-top: 10px solid $blue;
-  
 }
-
 
 @media screen and (max-width: 800px) {
   .stip-text {
@@ -522,18 +517,18 @@
 }
 
 .blueTxt {
-	margin-bottom: 1em;
-	color: $blue;
-	font-size: 1.2em;
-	margin-top: 0.5em;
-	font-family: $font-stack;
+  margin-bottom: 1em;
+  color: $blue;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  font-family: $font-stack;
 }
 
 .cardTxt {
-	font-family: $font-stack;
-	color: rgb(34, 34, 34);
-	font-size: 0.9em;
-	margin-top: 0.5em;
+  font-family: $font-stack;
+  color: rgb(34, 34, 34);
+  font-size: 0.9em;
+  margin-top: 0.5em;
 }
 
 // Article page 600px
@@ -717,20 +712,19 @@
   height: 25em;
 }
 
-
 .internationellt-p {
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 90%;
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
 }
 
 .internationellt-text {
-width: 80%;
+  width: 80%;
   margin: auto;
   //lagt till
   margin-top: 10em;
@@ -743,17 +737,17 @@ width: 80%;
 }
 
 .internationellt-header-text {
-	width: 50%;
-	margin: auto;
-	margin: 0;
-	padding: 0;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	margin: 0;
-	margin-top: 0em;
-	text-align: center;
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
 }
 
 .internationellt-image {
@@ -766,33 +760,32 @@ width: 80%;
 }
 
 @media screen and (max-width: 800px) {
-	.internationellt-p {
-	  font-size: 3vw;
-	  width: 80%;
-	}
-	.internationellt-image{
-	  height: 15em;
-	}
-
-	.internationellt-text {
-	  margin-top: 18vh;
-	  font-size: 3vw;
-	  margin-bottom: 10vh;
-	}
-	
-	.internationellt-header-text {
-		font-size: $hero-header-size-text;
-		width: 120%;
-		margin-bottom: 4vh;
-	}
+  .internationellt-p {
+    font-size: 3vw;
+    width: 80%;
   }
+  .internationellt-image {
+    height: 15em;
+  }
+
+  .internationellt-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+
+  .internationellt-header-text {
+    font-size: $hero-header-size-text;
+    width: 120%;
+    margin-bottom: 4vh;
+  }
+}
 
 .purpleTxt {
   color: $purple;
   font-size: 1em;
   margin-top: 0.5em;
 }
-
 
 // Ekonomiska och sociala villkor
 
@@ -819,19 +812,18 @@ width: 80%;
 
 //INDEX SIDA
 
-.hero-header-text{
-	width: 50%;
-	margin: auto;
-	margin: 0;
-	padding: 0;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	margin: 0;
-	margin-top: 0em;
-	text-align: center;
-	
+.hero-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
 }
 
 .index-hero {
@@ -845,9 +837,6 @@ width: 80%;
   height: 30em;
 }
 
-
-
-
 .index-image {
   position: absolute;
   display: flex;
@@ -859,19 +848,18 @@ width: 80%;
 }
 
 .index-p {
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 90%;
-
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
 }
 
 .index-text {
-width: 80%;
+  width: 80%;
   margin: auto;
   //lagt till
   margin-top: 10em;
@@ -884,40 +872,40 @@ width: 80%;
 }
 
 @media screen and (max-width: 800px) {
-	.index-p {
-	  font-size: 3vw;
-	  width: 80%;
-	}
-	.index-image{
-	  height: 15em;
-	}
-
-	.index-text {
-	  margin-top: 18vh;
-	  font-size: 3vw;
-	  margin-bottom: 10vh;
-	}
-	.hero-header-text {
-		font-size: $hero-header-size-text;
-		width: 80%;
-		margin-bottom: 4vh;
-	  }
+  .index-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .index-image {
+    height: 15em;
   }
 
-  // Jämställdhet
-  .Jämställdhet-header-text {
-	width: 50%;
-	margin: auto;
-	margin: 0;
-	padding: 0;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	margin: 0;
-	margin-top: 0em;
-	text-align: center;
+  .index-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
   }
+  .hero-header-text {
+    font-size: $hero-header-size-text;
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+}
+
+// Jämställdhet
+.Jämställdhet-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
 
 .jämställdhet-hero {
   background-color: $blue;
@@ -930,9 +918,6 @@ width: 80%;
   height: 30em;
 }
 
-
-
-
 .Jämställdhet-image {
   position: absolute;
   display: flex;
@@ -944,19 +929,18 @@ width: 80%;
 }
 
 .Jämställdhet-p {
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 90%;
-
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
 }
 
 .Jämställdhet-text {
-width: 80%;
+  width: 80%;
   margin: auto;
   //lagt till
   margin-top: 10em;
@@ -969,40 +953,40 @@ width: 80%;
 }
 
 @media screen and (max-width: 800px) {
-	.Jämställdhet-p {
-	  font-size: 3vw;
-	  width: 80%;
-	}
-	.Jämställdhet-image{
-	  height: 15em;
-	}
-
-	.Jämställdhet-text {
-	  margin-top: 18vh;
-	  font-size: 3vw;
-	  margin-bottom: 10vh;
-	}
-	.Jämställdhet-header-text {
-		font-size: $hero-header-size-text;
-		width: 130%;
-		margin-bottom: 4vh;
-	  }
+  .Jämställdhet-p {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .Jämställdhet-image {
+    height: 15em;
   }
 
-  // EKONOMISKA OCH SOCIALA VILLKOR
-  .villkor-header-text {
-	width: 50%;
-	margin: auto;
-	margin: 0;
-	padding: 0;
-	font-size: $hero-header-size-text;
-	color: $black;
-	text-transform: uppercase;
-	display: block;
-	margin: 0;
-	margin-top: 0em;
-	text-align: center;
+  .Jämställdhet-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
   }
+  .Jämställdhet-header-text {
+    font-size: $hero-header-size-text;
+    width: 130%;
+    margin-bottom: 4vh;
+  }
+}
+
+// EKONOMISKA OCH SOCIALA VILLKOR
+.villkor-header-text {
+  width: 50%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-size: $hero-header-size-text;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  margin-top: 0em;
+  text-align: center;
+}
 
 .villkor-hero {
   background-color: $yellow;
@@ -1015,9 +999,6 @@ width: 80%;
   height: 30em;
 }
 
-
-
-
 .villkor-image {
   position: absolute;
   display: flex;
@@ -1029,19 +1010,18 @@ width: 80%;
 }
 
 .villkor-p {
-	display: block;
-	color: $black;
-	font-size: 1.5vw;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	width: 90%;
-
+  display: block;
+  color: $black;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
 }
 
 .villkor-text {
-width: 80%;
+  width: 80%;
   margin: auto;
   //lagt till
   margin-top: 10em;
@@ -1054,22 +1034,22 @@ width: 80%;
 }
 
 @media screen and (max-width: 800px) {
-	.villkor-p {
-	  font-size: 3vw;
-	  width: 80%;
-	}
-	.villkor-image{
-	  height: 15em;
-	}
-
-	.villkor-text {
-	  margin-top: 18vh;
-	  font-size: 3vw;
-	  margin-bottom: 10vh;
-	}
-	.villkor-header-text {
-		font-size: $hero-header-size-text;
-		width: 130%;
-		margin-bottom: 4vh;
-	  }
+  .villkor-p {
+    font-size: 3vw;
+    width: 80%;
   }
+  .villkor-image {
+    height: 15em;
+  }
+
+  .villkor-text {
+    margin-top: 18vh;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+  .villkor-header-text {
+    font-size: $hero-header-size-text;
+    width: 130%;
+    margin-bottom: 4vh;
+  }
+}
