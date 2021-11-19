@@ -1,0 +1,67 @@
+.kalendarium-hero {
+    background-color: $yellow;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30em;
+  }
+  .kalendarium-header-text {
+    font-size: 4vw;
+    color: $black;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+  }
+  
+  .kalendarium-text {
+    width: 70%;
+    margin: auto;
+    margin-top: 35vh;
+    margin-bottom: 15vh;
+    background-color: $white;
+    font-size: $hero-header-size-text;
+    color: $black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+  }
+  
+  .kalendarium-p {
+    display: block;
+    color: $black;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .kalendarium-image {
+    position: absolute;
+    display: flex;
+    margin-top: 20em;
+    width: $hero-image-width;
+    height: 30em;
+    background-color: rgb(48, 48, 48);
+    border-top: 10px solid $blue;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .kalendarium-image {
+      height: 14em;
+    }
+    .kalendarium-p {
+      font-size: 3.5vw;
+    }
+  
+    .kalendarium-text {
+      font-size: 3vw;
+      margin-bottom: 7vh;
+      margin-top: 20vh;
+    }
+  }
+  

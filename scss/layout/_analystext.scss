@@ -1,0 +1,67 @@
+.analys-hero {
+    background-color: $pink;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 30em;
+  }
+  .analys-header-text {
+    font-size: 5vw;
+    color: $black;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+  }
+  
+  .analys-text {
+    width: 70%;
+    margin: auto;
+    margin-top: 35vh;
+    margin-bottom: 15vh;
+    background-color: $white;
+    font-size: $hero-header-size-text;
+    color: $black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+  }
+  
+  .analys-p {
+    display: block;
+    color: $black;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .analys-image {
+    position: absolute;
+    display: flex;
+    margin-top: 20em;
+    width: $hero-image-width;
+    height: 30em;
+    background-color: rgb(48, 48, 48);
+    border-top: 10px solid $blue;
+  }
+  
+  @media screen and (max-width: 890px) {
+    .analys-text {
+      font-size: 3.5vw;
+      width: 70%;
+      margin-bottom: 15vh;
+      margin-top: 25vh;
+    }
+    .analys-p {
+      font-size: 3.5vw;
+      width: 70%;
+    }
+    .analys-image {
+      height: 18em;
+    }
+  }
